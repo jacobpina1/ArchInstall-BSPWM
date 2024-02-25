@@ -1,0 +1,56 @@
+"evaluatorscript"
+{
+	"0"
+	{
+		"appid"		"228980"
+		"mode"		"2"
+		"language"		""
+		"commonredist"		"1"
+		"SteamID"		"76561198055530360"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"x86 14.10.25008.0"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2017"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2017\\Microsoft Visual C++ 2017 x86.cmd"
+					"nocleanup"		"1"
+				}
+				"x64 14.10.25008.0"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2017"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2017\\Microsoft Visual C++ 2017 x64.cmd"
+					"nocleanup"		"1"
+					"requirement_os"
+					{
+						"Is64BitWindows"		"1"
+					}
+				}
+			}
+		}
+		"linux_install_path"		"/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared"
+	}
+	"1"
+	{
+		"appid"		"228980"
+		"mode"		"2"
+		"language"		""
+		"commonredist"		"1"
+		"SteamID"		"76561198055530360"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"dxsetup"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\DirectX\\Jun2010"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DirectX\\Jun2010\\DXSETUP.exe"
+					"command 1"		"/silent"
+					"nocleanup"		"1"
+				}
+			}
+		}
+		"linux_install_path"		"/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared"
+	}
+}

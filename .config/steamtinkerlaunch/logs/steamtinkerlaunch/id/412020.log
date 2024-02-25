@@ -1,0 +1,1207 @@
+Wed Jan 24 20:07:02 MST 2024 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '412020'
+Wed Jan 24 20:07:02 MST 2024 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020'
+Wed Jan 24 20:07:02 MST 2024 INFO - loadLangFile - Language from command line is 'english'
+Wed Jan 24 20:07:02 MST 2024 INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+Wed Jan 24 20:07:02 MST 2024 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Wed Jan 24 20:07:02 MST 2024 INFO - loadLangFile - Loading found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt
+Wed Jan 24 20:07:03 MST 2024 INFO - getCurrentCommandline - No Proton in command line arguments 'waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 20:07:03 MST 2024 INFO - saveOrgVars - Storing some original variables to restore them later
+Wed Jan 24 08:07:03 PM MST 2024 INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+Wed Jan 24 08:07:03 PM MST 2024 INFO - emptyVars - Set $PATH to '/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/home/jacobpina/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:'
+Wed Jan 24 08:07:03 PM MST 2024 START - ######### Initializing Game Launch 412020 using SteamTinkerLaunch v12.12 #########
+Wed Jan 24 08:07:03 PM MST 2024 INFO - main - Starting with a clean log
+Wed Jan 24 08:07:03 PM MST 2024 INFO - main - Start creating default configs
+Wed Jan 24 08:07:03 PM MST 2024 INFO - createDefaultCfgs - START
+Wed Jan 24 08:07:03 PM MST 2024 INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+Wed Jan 24 08:07:03 PM MST 2024 INFO - loadLangFile - Language from command line is 'english'
+Wed Jan 24 08:07:03 PM MST 2024 INFO - loadLangFile - GLOBALSTLLANGDIR is '/usr/share/steamtinkerlaunch/lang'
+Wed Jan 24 08:07:03 PM MST 2024 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Wed Jan 24 08:07:03 PM MST 2024 INFO - loadLangFile - Found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt, attempting to update it
+Wed Jan 24 08:07:03 PM MST 2024 INFO - loadLangFile - Found lang file to replace the existing user-installed file with under '/usr/share/steamtinkerlaunch/lang/english.txt'
+Wed Jan 24 08:07:03 PM MST 2024 INFO - loadLangFile - Loading found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt
+Wed Jan 24 08:07:03 PM MST 2024 INFO - loadLanguage - Loading STLLANG from '/home/jacobpina/.config/steamtinkerlaunch/global.conf'
+Wed Jan 24 08:07:03 PM MST 2024 INFO - loadLanguage - STLLANG from '/home/jacobpina/.config/steamtinkerlaunch/global.conf' is 'english'
+Wed Jan 24 08:07:03 PM MST 2024 INFO - createDefaultCfgs - setSteamPaths:
+Wed Jan 24 08:07:03 PM MST 2024 INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+Wed Jan 24 08:07:03 PM MST 2024 INFO - getGameOS - Starting game OS detection
+Wed Jan 24 08:07:03 PM MST 2024 INFO - getGameOS - Making some checks on '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe' to determine the OS version of the game
+Wed Jan 24 08:07:03 PM MST 2024 INFO - getGameOS - Looks like this is a Windows game!
+Wed Jan 24 08:07:03 PM MST 2024 INFO - setWin - 'MetroExodus' determined to be a Windows Game
+Wed Jan 24 08:07:03 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:03 PM MST 2024 INFO - createDefaultCfgs - createProtonList:
+Wed Jan 24 08:07:03 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:07:03 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:07:03 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:07:03 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:07:03 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:07:03 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:07:03 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:03 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:03 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - createDefaultCfgs - createProtonList end
+Wed Jan 24 08:07:04 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:07:04 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:07:04 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+Wed Jan 24 08:07:04 PM MST 2024 INFO - createDefaultCfgs - STOP
+Wed Jan 24 08:07:04 PM MST 2024 SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/run/media/jacobpina/DATA/SteamLibrary/steamapps:/home/jacobpina/.local/share/Steam/steamapps'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared:/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared:/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - main - Checking internal dependencies:
+Wed Jan 24 08:07:04 PM MST 2024 INFO - checkIntDeps - Result of version check for yad binary '/usr/bin/yad' is '13.0'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - main - Initializing first Proton:
+Wed Jan 24 08:07:04 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - initFirstProton - Initializing Proton
+Wed Jan 24 08:07:04 PM MST 2024 INFO - initFirstProton - No Proton version available in template yet - searching for one
+Wed Jan 24 08:07:04 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:07:04 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:07:04 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - initFirstProton - Updated 'USEPROTON' in '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf' to ''
+Wed Jan 24 08:07:04 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:07:04 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:07:04 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf' is ''
+Wed Jan 24 08:07:04 PM MST 2024 INFO - main - Initializing default window resolution
+Wed Jan 24 08:07:04 PM MST 2024 INFO - setInitWinXY - Using '2580x1080' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - main - Welcome to SteamTinkerLaunch
+Wed Jan 24 08:07:04 PM MST 2024 INFO - removeEmptyFiles - Removing empty files from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - removeEmptyFiles - Removing empty files from '/home/jacobpina/.config/steamtinkerlaunch/games/header'
+Wed Jan 24 08:07:04 PM MST 2024 INFO - main - Checking command line: incoming arguments 'waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:07:04 PM MST 2024 SKIP - getGameOS - ISGAME is already set to '2' - nothing to determine
+Wed Jan 24 08:07:04 PM MST 2024 INFO - linkLog - Set symlink from '/home/jacobpina/.config/steamtinkerlaunch/logs/steamtinkerlaunch/id/412020.log' to '/home/jacobpina/.config/steamtinkerlaunch/logs/steamtinkerlaunch/title/Metro Exodus.log'
+Wed Jan 24 08:07:05 PM MST 2024 START - ######### Game Launch: Metro Exodus (412020) #########
+Wed Jan 24 08:07:05 PM MST 2024 INFO - dlCheck - Downloading picture for game '412020'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - notiShow - Message 'Downloading '/home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg'' should go to StatusWindow
+Wed Jan 24 08:07:05 PM MST 2024 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/412020/header.jpg -O /home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - getGameName - Using 'GN' as Game Name: 'Metro Exodus'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - getGameName - Outgoing game name is 'Metro Exodus'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - writeDesktopFile - Creating '/home/jacobpina/.config/steamtinkerlaunch/games/desktop/412020.desktop' for 'Metro Exodus' (412020)
+Wed Jan 24 08:07:05 PM MST 2024 INFO - prepareLaunch - Game launch args '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - prepareLaunch - Gamedir '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - prepareLaunch - Proton wineprefix '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - prepareLaunch -------------------
+Wed Jan 24 08:07:05 PM MST 2024 INFO - prepareLaunch - CreateGameCfg:
+Wed Jan 24 08:07:05 PM MST 2024 INFO - updateConfigEntry - Emptying 'CUSTOMCMD' for '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - updateConfigEntry - Option 'CUSTOMCMD' is updated with the new value 'echo' in config 'default_template.conf'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - getGameName - Using 'GN' as Game Name: 'Metro Exodus'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - getGameName - Outgoing game name is 'Metro Exodus'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - linkGameCfg - Set symlink from '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' to '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Metro Exodus.conf'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - prepareLaunch - First LoadCfg: /home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf
+Wed Jan 24 08:07:05 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' START
+Wed Jan 24 08:07:05 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:07:05 PM MST 2024 INFO - migrateCfgOption - Automatically updating variable SPEKVERS from 'old' to 'default' in '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - updateConfigEntry - Option 'SPEKVERS' is updated with the new value 'default' in config '412020.conf'
+Wed Jan 24 08:07:05 PM MST 2024 INFO - loadCfg - '' STOP
+Wed Jan 24 08:07:06 PM MST 2024 SKIP - autoBumpReShade - '5.9.1' is the latest version of 'ReShade' - not updating
+Wed Jan 24 08:07:06 PM MST 2024 INFO - prepareLaunch - Initial Proton version from the game config: ''
+Wed Jan 24 08:07:06 PM MST 2024 INFO - prepareLaunch - Initializing internal Proton Vars for '' using setNewProtVars
+Wed Jan 24 08:07:06 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:07:06 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:07:06 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - setNewProtVars - Setting new Proton Variables based on '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - setNewProtVars - Continuing with RUNPROTON='/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:07:06 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:07:06 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - setRunWineServer - Set the wine binary for proton in path '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - setRunWineServer - to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wine'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - setRunWineServer - and wineserver to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wineserver'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - prepareLaunch - OpenTrayIcon:
+Wed Jan 24 08:07:06 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '412020' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Wed Jan 24 08:07:06 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Jan 24 08:07:06 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Jan 24 08:07:06 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jan 24 08:07:06 PM MST 2024 INFO - setShaderDest - Determining Shader destination directory SHADDESTDIR
+Wed Jan 24 08:07:06 PM MST 2024 INFO - setShaderDest - Using variable ABSGAMEEXEPATH for Shader destination directory '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - setShaderDest - Using Shader destination directory '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - setShaderDest - Shader destination directory is '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' for 'SHADDESTDIR'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - openTrayIcon - Opening trayIcon:
+Wed Jan 24 08:07:06 PM MST 2024 INFO - prepareLaunch - sortGameArgs:
+Wed Jan 24 08:07:06 PM MST 2024 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Wed Jan 24 08:07:06 PM MST 2024 INFO - prepareLaunch - AskSettings:
+Wed Jan 24 08:07:06 PM MST 2024 INFO - askSettings - Using game specific requester timeout '2'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - askSettings - Opening Requester with timeout '2'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getGameTextFiles - Searching for at least one editable textfile in '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx/drive_c/users/steamuser'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - updateConfigEntry - 'HEXAID' option missing in config '412020.conf' - adding a new line
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/412020.bin'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - pollWinRes - Using GEOM '--geometry=775x1412+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/template/SteamTinkerLaunch-OpenSettings.conf'
+Wed Jan 24 08:07:06 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-OpenSettings.conf' with incoming '775x1412'
+Wed Jan 24 08:07:07 PM MST 2024 INFO - setShowPic - Determining game picture
+Wed Jan 24 08:07:07 PM MST 2024 INFO - setShowPic - Using '/home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg' as game picture
+Wed Jan 24 08:07:07 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Wed Jan 24 08:07:07 PM MST 2024 WARN - getProtonDBRating - Can't get data from 'https://www.protondb.com/api/v1/reports/summaries/412020.json' because 'jq' is not installed
+Wed Jan 24 08:07:07 PM MST 2024 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Wed Jan 24 08:07:07 PM MST 2024 INFO - askSettings - Could not retrieve Steam Deck compatibility rating, defaulting to Unknown - Maybe 'jq' is missing or we are offline?
+Wed Jan 24 08:07:07 PM MST 2024 INFO - askSettings - Steam Deck compatibility rating string is '<b>Steam Deck Compatibility:</b> '
+Wed Jan 24 08:07:07 PM MST 2024 INFO - askSettings - Preparing to show Wait Requester
+Wed Jan 24 08:07:08 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-OpenSettings' is running - polling the resolution
+Wed Jan 24 08:07:08 PM MST 2024 INFO - updateWinRes - Found new Window Resolution '1628x1368' for Window 'SteamTinkerLaunch-OpenSettings'
+Wed Jan 24 08:07:08 PM MST 2024 INFO - MainMenu - Preparing to load Main Menu
+Wed Jan 24 08:07:08 PM MST 2024 SKIP - createDLSpekList - Skipping looking for available SpecialK versions, because USESPECIALK is disabled
+Wed Jan 24 08:07:09 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-OpenSettings' was closed - saving the last seen resolution '1628x1368' into config '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-OpenSettings.conf'
+Wed Jan 24 08:07:09 PM MST 2024 INFO - updateConfigEntry - 'WINX' option missing in config 'SteamTinkerLaunch-OpenSettings.conf' - adding a new line
+Wed Jan 24 08:07:09 PM MST 2024 INFO - updateConfigEntry - 'WINY' option missing in config 'SteamTinkerLaunch-OpenSettings.conf' - adding a new line
+Wed Jan 24 08:07:09 PM MST 2024 INFO - saveNewRes - Saved new resolution '1628x1368' in '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-OpenSettings.conf'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - createDLReShadeList - Found the following 'ReShade' versions online '6.0.0!5.9.2!5.9.1'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - prepareMenu - Opening Menu
+Wed Jan 24 08:07:10 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' START
+Wed Jan 24 08:07:10 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' STOP
+Wed Jan 24 08:07:10 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' START
+Wed Jan 24 08:07:10 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:07:10 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' STOP
+Wed Jan 24 08:07:10 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' START
+Wed Jan 24 08:07:10 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' STOP
+Wed Jan 24 08:07:10 PM MST 2024 UPDATE - updateConfigFile - Replacing '/home/jacobpina/.config/steamtinkerlaunch' with 'STLCFGDIR' in '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:07:10 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' already at version 'v12.12'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Metro Exodus.conf' already exists
+Wed Jan 24 08:07:10 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:07:10 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:07:10 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - createWineList - Updating the Wine Dropdown List
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getGameTextFiles - Searching for at least one editable textfile in '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx/drive_c/users/steamuser'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - setShowPic - Determining game picture
+Wed Jan 24 08:07:10 PM MST 2024 INFO - setShowPic - Using '/home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg' as game picture
+Wed Jan 24 08:07:10 PM MST 2024 INFO - setOPCustPath - Default path for custom exe file requester is '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - pollWinRes - Using GEOM '--geometry=775x1412+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/template/SteamTinkerLaunch-MainMenu.conf'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-MainMenu.conf' with incoming '775x1412'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/412020.bin'
+Wed Jan 24 08:07:10 PM MST 2024 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Wed Jan 24 08:07:10 PM MST 2024 INFO - createCustomCfgs - Creating emtpy game-specific config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/412020.conf' for user defined custom variables
+Wed Jan 24 08:07:10 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:07:10 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:07:10 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:10 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:11 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-MainMenu' is running - polling the resolution
+Wed Jan 24 08:07:11 PM MST 2024 INFO - updateWinRes - Found new Window Resolution '1628x1368' for Window 'SteamTinkerLaunch-MainMenu'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - MainMenu - Clicked '6' - 'GAME MENU'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - MainMenu - exiting 'Settings Menu' and opening 'Game Menu'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - prepareMenu - Opening Menu
+Wed Jan 24 08:07:13 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' START
+Wed Jan 24 08:07:13 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' STOP
+Wed Jan 24 08:07:13 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' START
+Wed Jan 24 08:07:13 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:07:13 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' STOP
+Wed Jan 24 08:07:13 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' START
+Wed Jan 24 08:07:13 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' STOP
+Wed Jan 24 08:07:13 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' already at version 'v12.12'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Metro Exodus.conf' already exists
+Wed Jan 24 08:07:13 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:07:13 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:07:13 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - createWineList - Updating the Wine Dropdown List
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getGameTextFiles - Searching for at least one editable textfile in '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx/drive_c/users/steamuser'
+Wed Jan 24 08:07:13 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' already at version 'v12.12'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Metro Exodus.conf' already exists
+Wed Jan 24 08:07:13 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:07:13 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:07:13 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - createWineList - Updating the Wine Dropdown List
+Wed Jan 24 08:07:13 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - pollWinRes - Using GEOM '--geometry=1257x1412+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/template/SteamTinkerLaunch-launchGameMenu.conf'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-launchGameMenu.conf' with incoming '1257x1412'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - openMenu - Starting createMenu "/dev/shm/steamtinkerlaunch/menutemp/gamemenu" "launchGameMenu" "/home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg" "EMPTY" "EMPTY" "Settings for game 'Metro Exodus (412020)'" "MainMenu" "MENU_GAME"
+Wed Jan 24 08:07:13 PM MST 2024 INFO - createMenu - got '9' elements: '0 /dev/shm/steamtinkerlaunch/menutemp/gamemenu launchGameMenu /home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg EMPTY EMPTY Settings for game 'Metro Exodus (412020)' MainMenu MENU_GAME'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - createMenu - Creating menu template '/dev/shm/steamtinkerlaunch/menutemp/gamemenu-template'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getFilteredEntries - No blocked elements found in '/home/jacobpina/.config/steamtinkerlaunch/menublock.conf' - working with '/dev/shm/steamtinkerlaunch/rawentries.txt'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - getFilteredEntries - Sort config '/home/jacobpina/.config/steamtinkerlaunch/menusort.conf' found - sorting
+Wed Jan 24 08:07:13 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-MainMenu' was closed - saving the last seen resolution '1628x1368' into config '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-MainMenu.conf'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - updateConfigEntry - 'WINX' option missing in config 'SteamTinkerLaunch-MainMenu.conf' - adding a new line
+Wed Jan 24 08:07:13 PM MST 2024 INFO - openMenu - Currently used tempfile is '/dev/shm/steamtinkerlaunch/menu.bBHAZGcf'
+Wed Jan 24 08:07:13 PM MST 2024 INFO - updateConfigEntry - 'WINY' option missing in config 'SteamTinkerLaunch-MainMenu.conf' - adding a new line
+Wed Jan 24 08:07:13 PM MST 2024 INFO - saveNewRes - Saved new resolution '1628x1368' in '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-MainMenu.conf'
+Wed Jan 24 08:07:14 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Wed Jan 24 08:07:15 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-launchGameMenu' is running - polling the resolution
+Wed Jan 24 08:07:15 PM MST 2024 INFO - updateWinRes - Found new Window Resolution '1628x1368' for Window 'SteamTinkerLaunch-launchGameMenu'
+Wed Jan 24 08:09:16 PM MST 2024 INFO - openMenu - Clicked '8' - 'SAVE AND PLAY'
+Wed Jan 24 08:09:16 PM MST 2024 INFO - openMenu - exiting 'Favorite Menu' and opening 'Game Start'
+Wed Jan 24 08:09:16 PM MST 2024 INFO - openMenu - Saving config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' and starting the game
+Wed Jan 24 08:09:16 PM MST 2024 INFO - saveMenuEntries - Saving changed Settings
+Wed Jan 24 08:09:16 PM MST 2024 INFO - saveMenuEntries - Clearing Results array with '0' elements
+Wed Jan 24 08:09:16 PM MST 2024 INFO - saveMenuEntries - Pulling values from tempfile '/dev/shm/steamtinkerlaunch/menu.bBHAZGcf'
+Wed Jan 24 08:09:16 PM MST 2024 INFO - updateConfigEntry - Option 'CUSTOMCMD' is updated with the new value '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe' in config '412020.conf'
+Wed Jan 24 08:09:16 PM MST 2024 INFO - updateConfigEntry - Option 'USERSTART' is updated with the new value '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/echo' in config '412020.conf'
+Wed Jan 24 08:09:16 PM MST 2024 INFO - updateConfigEntry - Option 'USERSTOP' is updated with the new value '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/echo' in config '412020.conf'
+Wed Jan 24 08:09:17 PM MST 2024 INFO - updateConfigEntry - Option 'USEPROTON' is updated with the new value 'experimental-8.0-20240111c' in config '412020.conf'
+Wed Jan 24 08:09:17 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-launchGameMenu' was closed - saving the last seen resolution '1628x1368' into config '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-launchGameMenu.conf'
+Wed Jan 24 08:09:17 PM MST 2024 INFO - updateConfigEntry - 'WINX' option missing in config 'SteamTinkerLaunch-launchGameMenu.conf' - adding a new line
+Wed Jan 24 08:09:17 PM MST 2024 INFO - updateConfigEntry - 'WINY' option missing in config 'SteamTinkerLaunch-launchGameMenu.conf' - adding a new line
+Wed Jan 24 08:09:17 PM MST 2024 INFO - saveNewRes - Saved new resolution '1628x1368' in '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-launchGameMenu.conf'
+Wed Jan 24 08:09:17 PM MST 2024 INFO - updateConfigEntry - Option 'ARCHALTEXE' is updated with the new value '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/echo' in config '412020.conf'
+Wed Jan 24 08:09:17 PM MST 2024 INFO - updateConfigEntry - Option 'USEGAMEMODERUN' is updated with the new value '1' in config '412020.conf'
+Wed Jan 24 08:09:18 PM MST 2024 INFO - saveMenuEntries - Value for 'MAHUBIN' is empty - automatically setting 'none'
+Wed Jan 24 08:09:18 PM MST 2024 INFO - updateConfigEntry - Option 'MAHUBIN' is updated with the new value 'none' in config '412020.conf'
+Wed Jan 24 08:09:18 PM MST 2024 INFO - updateConfigEntry - Option 'STL_VKD3D_PROFILE_PATH' is updated with the new value '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/none' in config '412020.conf'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - saveMenuEntries - Done with Saving changed Settings
+Wed Jan 24 08:09:19 PM MST 2024 INFO - startSteamGame - Starting game
+Wed Jan 24 08:09:19 PM MST 2024 INFO - goBackToPrevFunction - 'MainMenu' closed
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - Second LoadCfg after menus: /home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf
+Wed Jan 24 08:09:19 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' START
+Wed Jan 24 08:09:19 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:09:19 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' STOP
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setDxvkVars - Exporting variable 'DXVK_FRAME_RATE=none' to limit game framerate
+Wed Jan 24 08:09:19 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '412020' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - sortGameArgs again, in case something changed above:
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - symlinkSteamUser:
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - symlinkSteamUser - Symlinking steamuser is disabled - Checking if a symlink needs to be reverted
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - symlinkSteamUser - '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx/drive_c/users/steamuser' is no symlink - nothing to do
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - restoreSteamUser:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - restoreSteamUser - Using configured value 'none' for RESTORESTEAMUSER
+Wed Jan 24 08:09:19 PM MST 2024 INFO - restoreSteamUser - Restoration of steamuser data is disabled with RESTORESTEAMUSER being 'none
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - prepareProton:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareProton - setNewProtVars, because 'experimental-8.0-20240111c' != ''
+Wed Jan 24 08:09:19 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setNewProtVars - Setting new Proton Variables based on '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setNewProtVars - Continuing with RUNPROTON='/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setRunWineServer - Set the wine binary for proton in path '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setRunWineServer - to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wine'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setRunWineServer - and wineserver to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wineserver'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - setLinGameVals :
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - CheckTweakLaunch:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - checkXliveless:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - chooseWinetricks:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - checkExtDeps:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - checkExtDeps done
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - setWineVars:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - CheckWinetricksLaunch:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - CheckWineCfgLaunch:
+Wed Jan 24 08:09:19 PM MST 2024 WARN - checkWineCfgLaunch - Function was called but RUN_WINECFG ('0') was not enabled - skipping
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - CustomRegs:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - TogWindows:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - StateSteamWebHelper:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - InstallReshade:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - installDepth3DReshade:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - checkReshade:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '412020' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Jan 24 08:09:19 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' for 'SHADDESTDIR'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - useSpecialK:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' for 'SPEKDDIR'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - configureGeoElf:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jan 24 08:09:19 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' for 'GEOELFDDIR'
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - ChooseShaders:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - UseNyrnaz:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - UseReplay:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - CheckSBSVRLaunch:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - checkMO2:
+Wed Jan 24 08:09:19 PM MST 2024 INFO - prepareLaunch - setNewRes:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - customUserScriptStart:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - redirectSCDP:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - redirectSCDP - Using Proton version with minor version fix 'experimental-8.0-20240111c' for compatdata directory name
+Wed Jan 24 08:09:20 PM MST 2024 INFO - redirectSCDP - Using regular compatdata '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - checkIGCSInjector:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - checkOpenVRFSR:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - CheckFWS:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - loadCustomVars - Empty global config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/global-custom-vars.conf' for user defined custom variables not loaded
+Wed Jan 24 08:09:20 PM MST 2024 INFO - loadCustomVars - Empty game-specific config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/412020.conf' for user defined custom variables not loaded
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - CheckCustomLaunch:
+Wed Jan 24 08:09:20 PM MST 2024 SKIP - checkCustomLaunch - USECUSTOMCMD is '0' therefore skipping the custom program '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - checkUUUPatchLaunch:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - CheckStraceLaunch:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - CheckNetMonLaunch:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - checkWDIB:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - checkPulse:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - checkSteamAppIDFile:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - checkSteamAppIDFile - Creating new control file '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/check-steam_appid.txt'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - checkSteamAppIDFile - STEAMAPPIDFILE is disabled and there's no '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/steam_appid.txt' - nothing to do
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - setCompatDataTitle:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - setCompatDataTitle - Set symlink from '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020' to '/home/jacobpina/.config/steamtinkerlaunch/compatdata/Metro Exodus'
+Wed Jan 24 08:09:20 PM MST 2024 SKIP - delayGameForCustomLaunch - Nothing to do
+Wed Jan 24 08:09:20 PM MST 2024 INFO - prepareLaunch - launchSteamGame:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - launchSteamGame - Initial game command is 'waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - setSLRReap - No SLR provided from command line, attempting to fetch required SLR from current compatibility tool's 'toolmanifest.vdf'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getRequireToolAppidPath - Found tool manifest at '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/toolmanifest.vdf', attempting to get 'require_tool_appid' value...
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getRequireToolAppidPath - Got 'require_tool_appid' from '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/toolmanifest.vdf' ('1628350') - Returning path to tool
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getGameDir - Found matching App Manifest file for presumed entered AppID '1628350' - Manifest file is '/home/jacobpina/.local/share/Steam/steamapps/appmanifest_1628350.acf'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - setSLRReap - '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper' exists - Path gotten from specified AppID looks valid
+Wed Jan 24 08:09:20 PM MST 2024 INFO - setSLRReap - Building Steam Linux Runtime command for Proton game
+Wed Jan 24 08:09:20 PM MST 2024 INFO - setSLRReap - Adding SLR '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun --' to the launch command
+Wed Jan 24 08:09:20 PM MST 2024 INFO - gameArgs - Game doesn't use any command line arguments
+Wed Jan 24 08:09:20 PM MST 2024 INFO - launchSteamGame - Preparing proton command
+Wed Jan 24 08:09:20 PM MST 2024 INFO - setProtonCmd - Proton override enabled, so checking if it needs updated
+Wed Jan 24 08:09:20 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:09:20 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:09:20 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - setRunProtonFromUseProton - Setting ORUNPROTON to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:09:20 PM MST 2024 SKIP - setRunProtonFromUseProton - RUNPROTON '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton' hasn't changed
+Wed Jan 24 08:09:20 PM MST 2024 SKIP - fixSymlinks - Fixing Symlinks is not enabled
+Wed Jan 24 08:09:20 PM MST 2024 SKIP - unSymlink - Unsymlinking is not enabled
+Wed Jan 24 08:09:20 PM MST 2024 INFO - setProtonCmd - Prepending Proton 'experimental-8.0-20240111c' (='/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton') to the command line '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - setProtonCmd - UPDATED game start command is: /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe
+Wed Jan 24 08:09:20 PM MST 2024 INFO - setProtonCmd - Starting 'Metro Exodus (412020)' with Proton: 'experimental-8.0-20240111c' with 'gamemoderun'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - launchSteamGame - Original incoming start command: 'waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - launchSteamGame - Final outgoing start command: '/usr/bin/gamemoderun /home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/412020.conf' START
+Wed Jan 24 08:09:20 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/412020.conf' STOP
+Wed Jan 24 08:09:20 PM MST 2024 INFO - startGame - Getting the Game Window name:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - startGame - Full start command is '/usr/bin/gamemoderun /home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - getGameWindowName - No gamewindow name stored in metadata '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/412020.conf' yet. Trying to find it now
+Wed Jan 24 08:09:20 PM MST 2024 INFO - startGame - Rebuilding STEAM_COMPAT_TOOL_PATHS variable:
+Wed Jan 24 08:09:20 PM MST 2024 INFO - startGame - Adding RUNPROTON '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - startGame - Adding '' because USESLR is enabled
+Wed Jan 24 08:09:20 PM MST 2024 INFO - startGame - Result: Set STEAM_COMPAT_TOOL_PATHS from '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared:/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier' to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental:'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - startGame - ## ORIGINAL INCOMING LAUNCH COMMAND: 'waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:09:20 PM MST 2024 WAIT - getGameWindowPID - Sec 0/20 Game Window with pwd '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' not yet in front
+Wed Jan 24 08:09:20 PM MST 2024 INFO - startGame - ## STL LAUNCH COMMAND: '/usr/bin/gamemoderun /home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:09:20 PM MST 2024 INFO - startGame - ## GAMESTART HERE ###
+Wed Jan 24 08:09:20 PM MST 2024 INFO - restoreOrgVars - Restoring previously cleared Variables
+Wed Jan 24 08:09:21 PM MST 2024 WAIT - getGameWindowPID - Sec 1/20 Game Window with pwd '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' not yet in front
+Wed Jan 24 08:09:22 PM MST 2024 WAIT - getGameWindowPID - Sec 2/20 Game Window with pwd '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' not yet in front
+Wed Jan 24 08:09:23 PM MST 2024 INFO - startGame - Set symlink from '/home/jacobpina/.config/steamtinkerlaunch/logs/gamelaunch/id/412020.log' to '/home/jacobpina/.config/steamtinkerlaunch/logs/gamelaunch/title/Metro Exodus.log'
+Wed Jan 24 08:09:23 PM MST 2024 ERROR - startGame - Could not determine pid of '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wineserver'
+Wed Jan 24 08:09:23 PM MST 2024 INFO - startGame - ## GAMESTOP after '3' seconds playtime
+Wed Jan 24 08:09:23 PM MST 2024 STOP - ######### SteamTinkerLaunch v12.12 #########
+Wed Jan 24 08:09:23 PM MST 2024 STOP - ######### CLEANUP #########
+Wed Jan 24 08:09:23 PM MST 2024 INFO - closeSTL - closing STL
+Wed Jan 24 08:09:23 PM MST 2024 INFO - updateConfigEntry - Emptying 'CUSTOMCMD' for '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf'
+Wed Jan 24 08:09:23 PM MST 2024 INFO - updateConfigEntry - Option 'CUSTOMCMD' is updated with the new value 'echo' in config 'default_template.conf'
+Wed Jan 24 08:09:23 PM MST 2024 INFO - closeSTL - Creating '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Wed Jan 24 08:09:23 PM MST 2024 INFO - checkPlayTime - The game stopped after '3' seconds - opening CrashGuess Requester
+Wed Jan 24 08:09:23 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/412020.bin'
+Wed Jan 24 08:09:23 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:09:23 PM MST 2024 INFO - pollWinRes - Creating initial '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-CrashGuess.conf' with unused default values
+Wed Jan 24 08:09:23 PM MST 2024 INFO - updateConfigEntry - 'COLCOUNT' option missing in config 'SteamTinkerLaunch-CrashGuess.conf' - adding a new line
+Wed Jan 24 08:09:23 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-CrashGuess.conf' with incoming '1257x1412'
+Wed Jan 24 08:09:23 PM MST 2024 INFO - setShowPic - Determining game picture
+Wed Jan 24 08:09:23 PM MST 2024 INFO - setShowPic - Using '/home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg' as game picture
+Wed Jan 24 08:09:23 PM MST 2024 WAIT - updateWinRes - steamtinkerlaunch is just closing - leaving loop
+Wed Jan 24 08:09:23 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-CrashGuess' is running - polling the resolution
+Wed Jan 24 08:09:23 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-CrashGuess' was closed - the resolution didn't change - nothing to do
+Wed Jan 24 08:09:23 PM MST 2024 WAIT - getGameWindowPID - steamtinkerlaunch is just closing - leaving loop
+Wed Jan 24 08:09:33 PM MST 2024 INFO - checkPlayTime - Selected 'RETRY DIFFERENT SETTINGS' so opening settings
+Wed Jan 24 08:09:33 PM MST 2024 INFO - linkLog - Symlink '/home/jacobpina/.config/steamtinkerlaunch/logs/steamtinkerlaunch/title/Metro Exodus.log' already exists
+Wed Jan 24 08:09:33 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/412020.bin'
+Wed Jan 24 08:09:33 PM MST 2024 START - ######### Game Launch: Metro Exodus (412020) #########
+Wed Jan 24 08:09:33 PM MST 2024 INFO - prepareLaunch - Game launch args '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:09:33 PM MST 2024 INFO - prepareLaunch - Gamedir '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus'
+Wed Jan 24 08:09:33 PM MST 2024 INFO - prepareLaunch - Proton wineprefix '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx'
+Wed Jan 24 08:09:33 PM MST 2024 INFO - prepareLaunch -------------------
+Wed Jan 24 08:09:33 PM MST 2024 INFO - prepareLaunch - CreateGameCfg:
+Wed Jan 24 08:09:34 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' already at version 'v12.12'
+Wed Jan 24 08:09:34 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Metro Exodus.conf' already exists
+Wed Jan 24 08:09:34 PM MST 2024 INFO - prepareLaunch - First LoadCfg: /home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf
+Wed Jan 24 08:09:34 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' START
+Wed Jan 24 08:09:34 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:09:34 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:09:34 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' STOP
+Wed Jan 24 08:09:35 PM MST 2024 SKIP - autoBumpReShade - '5.9.1' is the latest version of 'ReShade' - not updating
+Wed Jan 24 08:09:35 PM MST 2024 INFO - prepareLaunch - Initial Proton version from the game config: 'experimental-8.0-20240111c'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:09:35 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:09:35 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - prepareLaunch - Initializing internal Proton Vars for 'experimental-8.0-20240111c' using setNewProtVars
+Wed Jan 24 08:09:35 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:09:35 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:09:35 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - setNewProtVars - Setting new Proton Variables based on '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - setNewProtVars - Continuing with RUNPROTON='/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:09:35 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:09:35 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - setRunWineServer - Set the wine binary for proton in path '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - setRunWineServer - to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wine'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - setRunWineServer - and wineserver to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wineserver'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - prepareLaunch - OpenTrayIcon:
+Wed Jan 24 08:09:35 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '412020' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Wed Jan 24 08:09:35 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Jan 24 08:09:35 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Jan 24 08:09:35 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jan 24 08:09:35 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' for 'SHADDESTDIR'
+Wed Jan 24 08:09:35 PM MST 2024 INFO - prepareLaunch - sortGameArgs:
+Wed Jan 24 08:09:35 PM MST 2024 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Wed Jan 24 08:09:35 PM MST 2024 INFO - MainMenu - Preparing to load Main Menu
+Wed Jan 24 08:09:35 PM MST 2024 SKIP - createDLSpekList - Skipping looking for available SpecialK versions, because USESPECIALK is disabled
+Wed Jan 24 08:09:36 PM MST 2024 INFO - createDLReShadeList - Found the following 'ReShade' versions online '6.0.0!5.9.2!5.9.1'
+Wed Jan 24 08:09:36 PM MST 2024 INFO - prepareMenu - Opening Menu
+Wed Jan 24 08:09:36 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' START
+Wed Jan 24 08:09:36 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' STOP
+Wed Jan 24 08:09:36 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' START
+Wed Jan 24 08:09:36 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:09:36 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:09:36 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' STOP
+Wed Jan 24 08:09:36 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' START
+Wed Jan 24 08:09:36 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' STOP
+Wed Jan 24 08:09:36 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' already at version 'v12.12'
+Wed Jan 24 08:09:36 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Metro Exodus.conf' already exists
+Wed Jan 24 08:09:36 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:36 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:09:36 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:09:36 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:09:36 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:09:36 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:09:36 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:09:36 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:09:36 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:36 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:36 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:36 PM MST 2024 INFO - createWineList - Updating the Wine Dropdown List
+Wed Jan 24 08:09:36 PM MST 2024 INFO - getGameTextFiles - Searching for at least one editable textfile in '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx/drive_c/users/steamuser'
+Wed Jan 24 08:09:36 PM MST 2024 INFO - setShowPic - Determining game picture
+Wed Jan 24 08:09:36 PM MST 2024 INFO - setShowPic - Using '/home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg' as game picture
+Wed Jan 24 08:09:37 PM MST 2024 INFO - setOPCustPath - Default path for custom exe file requester is '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:09:37 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:09:37 PM MST 2024 INFO - pollWinRes - Using GEOM '--geometry=1628x1368+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-MainMenu.conf'
+Wed Jan 24 08:09:37 PM MST 2024 INFO - updateConfigEntry - 'COLCOUNT' option missing in config 'SteamTinkerLaunch-MainMenu.conf' - adding a new line
+Wed Jan 24 08:09:37 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-MainMenu.conf' with incoming '1628x1368'
+Wed Jan 24 08:09:37 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Wed Jan 24 08:09:37 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/412020.bin'
+Wed Jan 24 08:09:37 PM MST 2024 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Wed Jan 24 08:09:37 PM MST 2024 INFO - MainMenu - Game Info Gotten!
+Wed Jan 24 08:09:37 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:37 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:09:37 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:09:37 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:09:37 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:09:37 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:09:37 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:09:37 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:09:37 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:37 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:37 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:38 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-MainMenu' is running - polling the resolution
+Wed Jan 24 08:09:43 PM MST 2024 INFO - MainMenu - Clicked '8' - 'DEFAULT'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - MainMenu - exiting 'Settings Menu' and opening 'Game Default Menu'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - prepareMenu - Opening Menu
+Wed Jan 24 08:09:43 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' START
+Wed Jan 24 08:09:43 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' STOP
+Wed Jan 24 08:09:43 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' START
+Wed Jan 24 08:09:43 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:09:43 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' STOP
+Wed Jan 24 08:09:43 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' START
+Wed Jan 24 08:09:43 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' STOP
+Wed Jan 24 08:09:43 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' already at version 'v12.12'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Metro Exodus.conf' already exists
+Wed Jan 24 08:09:43 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:09:43 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:09:43 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - createWineList - Updating the Wine Dropdown List
+Wed Jan 24 08:09:43 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-MainMenu' was closed - the resolution didn't change - nothing to do
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getGameTextFiles - Searching for at least one editable textfile in '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx/drive_c/users/steamuser'
+Wed Jan 24 08:09:43 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' already at version 'v12.12'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Metro Exodus.conf' already exists
+Wed Jan 24 08:09:43 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:09:43 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:09:43 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - createWineList - Updating the Wine Dropdown List
+Wed Jan 24 08:09:43 PM MST 2024 INFO - rmCfgTemp - Deleting and resetting MKCFG '/dev/shm/steamtinkerlaunch/menu.bBHAZGcf' - triggered from 'mkCfgTemp'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - pollWinRes - Creating initial '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-launchGameTemplateMenu.conf' with unused default values
+Wed Jan 24 08:09:43 PM MST 2024 INFO - updateConfigEntry - 'COLCOUNT' option missing in config 'SteamTinkerLaunch-launchGameTemplateMenu.conf' - adding a new line
+Wed Jan 24 08:09:43 PM MST 2024 INFO - openMenu - Starting createMenu "/dev/shm/steamtinkerlaunch/menutemp/gametemplmenu" "launchGameTemplateMenu" "/dev/shm/steamtinkerlaunch/empty.png" "EMPTY" "EMPTY" "Default game settings template" "MainMenu" "MENU_GAME"
+Wed Jan 24 08:09:43 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-launchGameTemplateMenu.conf' with incoming '1628x1368'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - createMenu - got '9' elements: '0 /dev/shm/steamtinkerlaunch/menutemp/gametemplmenu launchGameTemplateMenu /dev/shm/steamtinkerlaunch/empty.png EMPTY EMPTY Default game settings template MainMenu MENU_GAME'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - createMenu - Creating menu template '/dev/shm/steamtinkerlaunch/menutemp/gametemplmenu-template'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameTemplateMenu'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getFilteredEntries - No blocked elements found in '/home/jacobpina/.config/steamtinkerlaunch/menublock.conf' - working with '/dev/shm/steamtinkerlaunch/rawentries.txt'
+Wed Jan 24 08:09:43 PM MST 2024 INFO - getFilteredEntries - Sort config '/home/jacobpina/.config/steamtinkerlaunch/menusort.conf' found - sorting
+Wed Jan 24 08:09:43 PM MST 2024 INFO - openMenu - Currently used tempfile is '/dev/shm/steamtinkerlaunch/menu.tmioQI3B'
+Wed Jan 24 08:09:44 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameTemplateMenu'
+Wed Jan 24 08:09:45 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-launchGameTemplateMenu' is running - polling the resolution
+Wed Jan 24 08:09:59 PM MST 2024 INFO - openMenu - Clicked '8' - 'SAVE AND PLAY'
+Wed Jan 24 08:09:59 PM MST 2024 INFO - openMenu - exiting 'Favorite Menu' and opening 'Game Start'
+Wed Jan 24 08:09:59 PM MST 2024 INFO - openMenu - Saving config '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf' and starting the game
+Wed Jan 24 08:09:59 PM MST 2024 INFO - saveMenuEntries - Saving changed Settings
+Wed Jan 24 08:09:59 PM MST 2024 INFO - saveMenuEntries - Clearing Results array with '187' elements
+Wed Jan 24 08:09:59 PM MST 2024 INFO - saveMenuEntries - Pulling values from tempfile '/dev/shm/steamtinkerlaunch/menu.tmioQI3B'
+Wed Jan 24 08:09:59 PM MST 2024 INFO - updateConfigEntry - Emptying 'CUSTOMCMD' for '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf'
+Wed Jan 24 08:09:59 PM MST 2024 INFO - updateConfigEntry - Option 'USERSTART' is updated with the new value '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/echo' in config 'default_template.conf'
+Wed Jan 24 08:09:59 PM MST 2024 INFO - updateConfigEntry - Option 'USERSTOP' is updated with the new value '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/echo' in config 'default_template.conf'
+Wed Jan 24 08:09:59 PM MST 2024 INFO - saveMenuEntries - Value for 'USEPROTON' is empty - automatically setting 'none'
+Wed Jan 24 08:09:59 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-launchGameTemplateMenu' was closed - the resolution didn't change - nothing to do
+Wed Jan 24 08:09:59 PM MST 2024 INFO - updateConfigEntry - Option 'USEPROTON' is updated with the new value 'none' in config 'default_template.conf'
+Wed Jan 24 08:10:00 PM MST 2024 INFO - updateConfigEntry - Option 'ARCHALTEXE' is updated with the new value '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/echo' in config 'default_template.conf'
+Wed Jan 24 08:10:00 PM MST 2024 INFO - saveMenuEntries - Value for 'MAHUBIN' is empty - automatically setting 'none'
+Wed Jan 24 08:10:00 PM MST 2024 INFO - updateConfigEntry - Option 'MAHUBIN' is updated with the new value 'none' in config 'default_template.conf'
+Wed Jan 24 08:10:01 PM MST 2024 INFO - updateConfigEntry - Option 'STL_VKD3D_PROFILE_PATH' is updated with the new value '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/none' in config 'default_template.conf'
+Wed Jan 24 08:10:01 PM MST 2024 INFO - saveMenuEntries - Done with Saving changed Settings
+Wed Jan 24 08:10:01 PM MST 2024 INFO - startSteamGame - Starting game
+Wed Jan 24 08:10:01 PM MST 2024 INFO - goBackToPrevFunction - 'MainMenu' closed
+Wed Jan 24 08:10:01 PM MST 2024 INFO - prepareLaunch - Second LoadCfg after menus: /home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf
+Wed Jan 24 08:10:01 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' START
+Wed Jan 24 08:10:01 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:10:01 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:10:01 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' STOP
+Wed Jan 24 08:10:01 PM MST 2024 INFO - setDxvkVars - Exporting variable 'DXVK_FRAME_RATE=none' to limit game framerate
+Wed Jan 24 08:10:01 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '412020' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Wed Jan 24 08:10:01 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - sortGameArgs again, in case something changed above:
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - symlinkSteamUser:
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - symlinkSteamUser - Symlinking steamuser is disabled - Checking if a symlink needs to be reverted
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - symlinkSteamUser - '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx/drive_c/users/steamuser' is no symlink - nothing to do
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - restoreSteamUser:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - restoreSteamUser - Using configured value 'none' for RESTORESTEAMUSER
+Wed Jan 24 08:10:02 PM MST 2024 INFO - restoreSteamUser - Restoration of steamuser data is disabled with RESTORESTEAMUSER being 'none
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - prepareProton:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - setLinGameVals :
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - CheckTweakLaunch:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - checkXliveless:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - chooseWinetricks:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - checkExtDeps:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - checkExtDeps done
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - setWineVars:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - CheckWinetricksLaunch:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - CheckWineCfgLaunch:
+Wed Jan 24 08:10:02 PM MST 2024 WARN - checkWineCfgLaunch - Function was called but RUN_WINECFG ('0') was not enabled - skipping
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - CustomRegs:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - TogWindows:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - StateSteamWebHelper:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - InstallReshade:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - installDepth3DReshade:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - checkReshade:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '412020' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' for 'SHADDESTDIR'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - useSpecialK:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' for 'SPEKDDIR'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - configureGeoElf:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' for 'GEOELFDDIR'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - ChooseShaders:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - UseNyrnaz:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - UseReplay:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - CheckSBSVRLaunch:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - checkMO2:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - setNewRes:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - customUserScriptStart:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - redirectSCDP:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - redirectSCDP - Using Proton version with minor version fix 'experimental-8.0-20240111c' for compatdata directory name
+Wed Jan 24 08:10:02 PM MST 2024 INFO - redirectSCDP - Using regular compatdata '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - checkIGCSInjector:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - checkOpenVRFSR:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - CheckFWS:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - loadCustomVars - Empty global config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/global-custom-vars.conf' for user defined custom variables not loaded
+Wed Jan 24 08:10:02 PM MST 2024 INFO - loadCustomVars - Empty game-specific config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/412020.conf' for user defined custom variables not loaded
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - CheckCustomLaunch:
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - checkCustomLaunch - USECUSTOMCMD is '0' therefore skipping the custom program '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - checkUUUPatchLaunch:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - CheckStraceLaunch:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - CheckNetMonLaunch:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - checkWDIB:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - checkPulse:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - checkSteamAppIDFile:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - checkSteamAppIDFile - STEAMAPPIDFILE is disabled and there's no '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/steam_appid.txt' - nothing to do
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - setCompatDataTitle:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setCompatDataTitle - Symlink /home/jacobpina/.config/steamtinkerlaunch/compatdata/Metro Exodus already exists
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setCompatDataTitle - Symlink '/home/jacobpina/.config/steamtinkerlaunch/compatdata/Metro Exodus' already points to the correct directory '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020'
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - delayGameForCustomLaunch - Nothing to do
+Wed Jan 24 08:10:02 PM MST 2024 INFO - prepareLaunch - launchSteamGame:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - launchSteamGame - Initial game command is 'waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setSLRReap - No SLR provided from command line, attempting to fetch required SLR from current compatibility tool's 'toolmanifest.vdf'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getRequireToolAppidPath - Found tool manifest at '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/toolmanifest.vdf', attempting to get 'require_tool_appid' value...
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getRequireToolAppidPath - Got 'require_tool_appid' from '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/toolmanifest.vdf' ('1628350') - Returning path to tool
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getGameDir - Found matching App Manifest file for presumed entered AppID '1628350' - Manifest file is '/home/jacobpina/.local/share/Steam/steamapps/appmanifest_1628350.acf'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setSLRReap - '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper' exists - Path gotten from specified AppID looks valid
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setSLRReap - Building Steam Linux Runtime command for Proton game
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setSLRReap - Adding SLR '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun --' to the launch command
+Wed Jan 24 08:10:02 PM MST 2024 INFO - gameArgs - Game doesn't use any command line arguments
+Wed Jan 24 08:10:02 PM MST 2024 INFO - launchSteamGame - Preparing proton command
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setProtonCmd - Proton override enabled, so checking if it needs updated
+Wed Jan 24 08:10:02 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setRunProtonFromUseProton - Setting ORUNPROTON to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - setRunProtonFromUseProton - RUNPROTON '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton' hasn't changed
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - fixSymlinks - Fixing Symlinks is not enabled
+Wed Jan 24 08:10:02 PM MST 2024 SKIP - unSymlink - Unsymlinking is not enabled
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setProtonCmd - Prepending Proton 'experimental-8.0-20240111c' (='/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton') to the command line '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setProtonCmd - UPDATED game start command is: /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe
+Wed Jan 24 08:10:02 PM MST 2024 INFO - setProtonCmd - Starting 'Metro Exodus (412020)' with Proton: 'experimental-8.0-20240111c' with 'gamemoderun'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - launchSteamGame - Original incoming start command: 'waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - launchSteamGame - Final outgoing start command: '/usr/bin/gamemoderun /home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/412020.conf' START
+Wed Jan 24 08:10:02 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/412020.conf' STOP
+Wed Jan 24 08:10:02 PM MST 2024 INFO - startGame - Getting the Game Window name:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - getGameWindowName - No gamewindow name stored in metadata '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/412020.conf' yet. Trying to find it now
+Wed Jan 24 08:10:02 PM MST 2024 INFO - startGame - Full start command is '/usr/bin/gamemoderun /home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - startGame - Rebuilding STEAM_COMPAT_TOOL_PATHS variable:
+Wed Jan 24 08:10:02 PM MST 2024 INFO - startGame - Adding RUNPROTON '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - startGame - Adding '' because USESLR is enabled
+Wed Jan 24 08:10:02 PM MST 2024 INFO - startGame - Result: Set STEAM_COMPAT_TOOL_PATHS from '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared:/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier' to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental:'
+Wed Jan 24 08:10:02 PM MST 2024 WAIT - getGameWindowPID - Sec 0/20 Game Window with pwd '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' not yet in front
+Wed Jan 24 08:10:02 PM MST 2024 INFO - startGame - ## ORIGINAL INCOMING LAUNCH COMMAND: 'waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - startGame - ## STL LAUNCH COMMAND: '/usr/bin/gamemoderun /home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:02 PM MST 2024 INFO - startGame - ## GAMESTART HERE ###
+Wed Jan 24 08:10:02 PM MST 2024 INFO - restoreOrgVars - Restoring previously cleared Variables
+Wed Jan 24 08:10:03 PM MST 2024 WAIT - getGameWindowPID - Sec 1/20 Game Window with pwd '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' not yet in front
+Wed Jan 24 08:10:04 PM MST 2024 INFO - startGame - Symlink '/home/jacobpina/.config/steamtinkerlaunch/logs/gamelaunch/title/Metro Exodus.log' already exists
+Wed Jan 24 08:10:04 PM MST 2024 ERROR - startGame - Could not determine pid of '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wineserver'
+Wed Jan 24 08:10:04 PM MST 2024 INFO - startGame - ## GAMESTOP after '2' seconds playtime
+Wed Jan 24 08:10:04 PM MST 2024 STOP - ######### SteamTinkerLaunch v12.12 #########
+Wed Jan 24 08:10:04 PM MST 2024 STOP - ######### CLEANUP #########
+Wed Jan 24 08:10:04 PM MST 2024 INFO - closeSTL - closing STL
+Wed Jan 24 08:10:04 PM MST 2024 INFO - updateConfigEntry - Emptying 'CUSTOMCMD' for '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf'
+Wed Jan 24 08:10:04 PM MST 2024 INFO - updateConfigEntry - Option 'CUSTOMCMD' is updated with the new value 'echo' in config 'default_template.conf'
+Wed Jan 24 08:10:04 PM MST 2024 INFO - closeSTL - Creating '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Wed Jan 24 08:10:04 PM MST 2024 INFO - checkPlayTime - The game stopped after '2' seconds - opening CrashGuess Requester
+Wed Jan 24 08:10:04 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/412020.bin'
+Wed Jan 24 08:10:04 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:10:04 PM MST 2024 WAIT - getGameWindowPID - steamtinkerlaunch is just closing - leaving loop
+Wed Jan 24 08:10:04 PM MST 2024 INFO - pollWinRes - Using GEOM '--geometry=1257x1412+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-CrashGuess.conf'
+Wed Jan 24 08:10:04 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-CrashGuess.conf' with incoming '1257x1412'
+Wed Jan 24 08:10:04 PM MST 2024 INFO - setShowPic - Determining game picture
+Wed Jan 24 08:10:04 PM MST 2024 INFO - setShowPic - Using '/home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg' as game picture
+Wed Jan 24 08:10:04 PM MST 2024 WAIT - updateWinRes - steamtinkerlaunch is just closing - leaving loop
+Wed Jan 24 08:10:04 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-CrashGuess' is running - polling the resolution
+Wed Jan 24 08:10:05 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-CrashGuess' was closed - the resolution didn't change - nothing to do
+Wed Jan 24 08:10:08 PM MST 2024 INFO - checkPlayTime - Selected 'RETRY DIFFERENT SETTINGS' so opening settings
+Wed Jan 24 08:10:08 PM MST 2024 INFO - linkLog - Symlink '/home/jacobpina/.config/steamtinkerlaunch/logs/steamtinkerlaunch/title/Metro Exodus.log' already exists
+Wed Jan 24 08:10:08 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/412020.bin'
+Wed Jan 24 08:10:08 PM MST 2024 START - ######### Game Launch: Metro Exodus (412020) #########
+Wed Jan 24 08:10:08 PM MST 2024 INFO - prepareLaunch - Game launch args '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:08 PM MST 2024 INFO - prepareLaunch - Gamedir '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus'
+Wed Jan 24 08:10:08 PM MST 2024 INFO - prepareLaunch - Proton wineprefix '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx'
+Wed Jan 24 08:10:08 PM MST 2024 INFO - prepareLaunch -------------------
+Wed Jan 24 08:10:08 PM MST 2024 INFO - prepareLaunch - CreateGameCfg:
+Wed Jan 24 08:10:08 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' already at version 'v12.12'
+Wed Jan 24 08:10:08 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Metro Exodus.conf' already exists
+Wed Jan 24 08:10:08 PM MST 2024 INFO - prepareLaunch - First LoadCfg: /home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf
+Wed Jan 24 08:10:08 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' START
+Wed Jan 24 08:10:08 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:10:08 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:10:08 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' STOP
+Wed Jan 24 08:10:09 PM MST 2024 SKIP - autoBumpReShade - '5.9.1' is the latest version of 'ReShade' - not updating
+Wed Jan 24 08:10:09 PM MST 2024 INFO - prepareLaunch - Initial Proton version from the game config: 'experimental-8.0-20240111c'
+Wed Jan 24 08:10:09 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:10:09 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:09 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:09 PM MST 2024 INFO - prepareLaunch - Initializing internal Proton Vars for 'experimental-8.0-20240111c' using setNewProtVars
+Wed Jan 24 08:10:09 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:10:09 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:09 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:09 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - setNewProtVars - Setting new Proton Variables based on '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - setNewProtVars - Continuing with RUNPROTON='/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:10:10 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:10:10 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:10:10 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:10:10 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:10 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:10:10 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - setRunWineServer - Set the wine binary for proton in path '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - setRunWineServer - to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wine'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - setRunWineServer - and wineserver to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wineserver'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - prepareLaunch - OpenTrayIcon:
+Wed Jan 24 08:10:10 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '412020' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Wed Jan 24 08:10:10 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Jan 24 08:10:10 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Jan 24 08:10:10 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jan 24 08:10:10 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' for 'SHADDESTDIR'
+Wed Jan 24 08:10:10 PM MST 2024 INFO - prepareLaunch - sortGameArgs:
+Wed Jan 24 08:10:10 PM MST 2024 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Wed Jan 24 08:10:10 PM MST 2024 INFO - MainMenu - Preparing to load Main Menu
+Wed Jan 24 08:10:10 PM MST 2024 SKIP - createDLSpekList - Skipping looking for available SpecialK versions, because USESPECIALK is disabled
+Wed Jan 24 08:10:11 PM MST 2024 INFO - createDLReShadeList - Found the following 'ReShade' versions online '6.0.0!5.9.2!5.9.1'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - prepareMenu - Opening Menu
+Wed Jan 24 08:10:11 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' START
+Wed Jan 24 08:10:11 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' STOP
+Wed Jan 24 08:10:11 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' START
+Wed Jan 24 08:10:11 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:10:11 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' STOP
+Wed Jan 24 08:10:11 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' START
+Wed Jan 24 08:10:11 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' STOP
+Wed Jan 24 08:10:11 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' already at version 'v12.12'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Metro Exodus.conf' already exists
+Wed Jan 24 08:10:11 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:10:11 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:11 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - createWineList - Updating the Wine Dropdown List
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getGameTextFiles - Searching for at least one editable textfile in '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx/drive_c/users/steamuser'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - setShowPic - Determining game picture
+Wed Jan 24 08:10:11 PM MST 2024 INFO - setShowPic - Using '/home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg' as game picture
+Wed Jan 24 08:10:11 PM MST 2024 INFO - setOPCustPath - Default path for custom exe file requester is '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - pollWinRes - Using GEOM '--geometry=1628x1368+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-MainMenu.conf'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-MainMenu.conf' with incoming '1628x1368'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/412020.bin'
+Wed Jan 24 08:10:11 PM MST 2024 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Wed Jan 24 08:10:11 PM MST 2024 INFO - MainMenu - Game Info Gotten!
+Wed Jan 24 08:10:11 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:11 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:10:11 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:10:11 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:10:12 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:12 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:10:12 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:12 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:12 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:12 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-MainMenu' is running - polling the resolution
+Wed Jan 24 08:10:13 PM MST 2024 INFO - MainMenu - Clicked '6' - 'GAME MENU'
+Wed Jan 24 08:10:13 PM MST 2024 INFO - MainMenu - exiting 'Settings Menu' and opening 'Game Menu'
+Wed Jan 24 08:10:13 PM MST 2024 INFO - prepareMenu - Opening Menu
+Wed Jan 24 08:10:13 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' START
+Wed Jan 24 08:10:13 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' STOP
+Wed Jan 24 08:10:13 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' START
+Wed Jan 24 08:10:13 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:10:13 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-MainMenu' was closed - the resolution didn't change - nothing to do
+Wed Jan 24 08:10:13 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:10:13 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' STOP
+Wed Jan 24 08:10:13 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' START
+Wed Jan 24 08:10:13 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' STOP
+Wed Jan 24 08:10:13 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' already at version 'v12.12'
+Wed Jan 24 08:10:13 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Metro Exodus.conf' already exists
+Wed Jan 24 08:10:13 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:13 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:10:13 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:10:13 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:10:13 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:14 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - createWineList - Updating the Wine Dropdown List
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getGameTextFiles - Searching for at least one editable textfile in '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx/drive_c/users/steamuser'
+Wed Jan 24 08:10:14 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' already at version 'v12.12'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Metro Exodus.conf' already exists
+Wed Jan 24 08:10:14 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - createProtonList - Looking for available Proton versions
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:10:14 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:14 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - createWineList - Updating the Wine Dropdown List
+Wed Jan 24 08:10:14 PM MST 2024 INFO - rmCfgTemp - Deleting and resetting MKCFG '/dev/shm/steamtinkerlaunch/menu.tmioQI3B' - triggered from 'mkCfgTemp'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:10:14 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - pollWinRes - Using GEOM '--geometry=1628x1368+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-launchGameMenu.conf'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - updateConfigEntry - 'COLCOUNT' option missing in config 'SteamTinkerLaunch-launchGameMenu.conf' - adding a new line
+Wed Jan 24 08:10:14 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-launchGameMenu.conf' with incoming '1628x1368'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - openMenu - Starting createMenu "/dev/shm/steamtinkerlaunch/menutemp/gamemenu" "launchGameMenu" "/home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg" "EMPTY" "EMPTY" "Settings for game 'Metro Exodus (412020)'" "MainMenu" "MENU_GAME"
+Wed Jan 24 08:10:14 PM MST 2024 INFO - createMenu - got '9' elements: '0 /dev/shm/steamtinkerlaunch/menutemp/gamemenu launchGameMenu /home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg EMPTY EMPTY Settings for game 'Metro Exodus (412020)' MainMenu MENU_GAME'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Wed Jan 24 08:10:14 PM MST 2024 INFO - openMenu - Currently used tempfile is '/dev/shm/steamtinkerlaunch/menu.Ubg1aYoE'
+Wed Jan 24 08:10:15 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Wed Jan 24 08:10:16 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-launchGameMenu' is running - polling the resolution
+Wed Jan 24 08:10:49 PM MST 2024 INFO - openMenu - Clicked '8' - 'SAVE AND PLAY'
+Wed Jan 24 08:10:49 PM MST 2024 INFO - openMenu - exiting 'Favorite Menu' and opening 'Game Start'
+Wed Jan 24 08:10:49 PM MST 2024 INFO - openMenu - Saving config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' and starting the game
+Wed Jan 24 08:10:49 PM MST 2024 INFO - saveMenuEntries - Saving changed Settings
+Wed Jan 24 08:10:49 PM MST 2024 INFO - saveMenuEntries - Clearing Results array with '187' elements
+Wed Jan 24 08:10:49 PM MST 2024 INFO - saveMenuEntries - Pulling values from tempfile '/dev/shm/steamtinkerlaunch/menu.Ubg1aYoE'
+Wed Jan 24 08:10:50 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-launchGameMenu' was closed - the resolution didn't change - nothing to do
+Wed Jan 24 08:10:50 PM MST 2024 INFO - updateConfigEntry - Option 'USEGAMEMODERUN' is updated with the new value '0' in config '412020.conf'
+Wed Jan 24 08:10:50 PM MST 2024 INFO - updateConfigEntry - Option 'MAHUBIN' is updated with the new value '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/none' in config '412020.conf'
+Wed Jan 24 08:10:51 PM MST 2024 INFO - saveMenuEntries - Done with Saving changed Settings
+Wed Jan 24 08:10:51 PM MST 2024 INFO - startSteamGame - Starting game
+Wed Jan 24 08:10:51 PM MST 2024 INFO - goBackToPrevFunction - 'MainMenu' closed
+Wed Jan 24 08:10:51 PM MST 2024 INFO - prepareLaunch - Second LoadCfg after menus: /home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf
+Wed Jan 24 08:10:51 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' START
+Wed Jan 24 08:10:51 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf'
+Wed Jan 24 08:10:51 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/412020.conf' does not exist - nothing to do
+Wed Jan 24 08:10:51 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/412020.conf' STOP
+Wed Jan 24 08:10:51 PM MST 2024 INFO - setDxvkVars - Exporting variable 'DXVK_FRAME_RATE=none' to limit game framerate
+Wed Jan 24 08:10:52 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '412020' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - sortGameArgs again, in case something changed above:
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - symlinkSteamUser:
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - symlinkSteamUser - Symlinking steamuser is disabled - Checking if a symlink needs to be reverted
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - symlinkSteamUser - '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020/pfx/drive_c/users/steamuser' is no symlink - nothing to do
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - restoreSteamUser:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - restoreSteamUser - Using configured value 'none' for RESTORESTEAMUSER
+Wed Jan 24 08:10:52 PM MST 2024 INFO - restoreSteamUser - Restoration of steamuser data is disabled with RESTORESTEAMUSER being 'none
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - prepareProton:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - setLinGameVals :
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - CheckTweakLaunch:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - checkXliveless:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - chooseWinetricks:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - checkExtDeps:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - checkExtDeps done
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - setWineVars:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - CheckWinetricksLaunch:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - CheckWineCfgLaunch:
+Wed Jan 24 08:10:52 PM MST 2024 WARN - checkWineCfgLaunch - Function was called but RUN_WINECFG ('0') was not enabled - skipping
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - CustomRegs:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - TogWindows:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - StateSteamWebHelper:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - InstallReshade:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - installDepth3DReshade:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - checkReshade:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '412020' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' for 'SHADDESTDIR'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - useSpecialK:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' for 'SPEKDDIR'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - configureGeoElf:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' for 'GEOELFDDIR'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - ChooseShaders:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - UseNyrnaz:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - UseReplay:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - CheckSBSVRLaunch:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - checkMO2:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - setNewRes:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - customUserScriptStart:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - redirectSCDP:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - redirectSCDP - Using Proton version with minor version fix 'experimental-8.0-20240111c' for compatdata directory name
+Wed Jan 24 08:10:52 PM MST 2024 INFO - redirectSCDP - Using regular compatdata '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - checkIGCSInjector:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - checkOpenVRFSR:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - CheckFWS:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - loadCustomVars - Empty global config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/global-custom-vars.conf' for user defined custom variables not loaded
+Wed Jan 24 08:10:52 PM MST 2024 INFO - loadCustomVars - Empty game-specific config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/412020.conf' for user defined custom variables not loaded
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - CheckCustomLaunch:
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - checkCustomLaunch - USECUSTOMCMD is '0' therefore skipping the custom program '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - checkUUUPatchLaunch:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - CheckStraceLaunch:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - CheckNetMonLaunch:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - checkWDIB:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - checkPulse:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - checkSteamAppIDFile:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - checkSteamAppIDFile - STEAMAPPIDFILE is disabled and there's no '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/steam_appid.txt' - nothing to do
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - setCompatDataTitle:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setCompatDataTitle - Symlink /home/jacobpina/.config/steamtinkerlaunch/compatdata/Metro Exodus already exists
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setCompatDataTitle - Symlink '/home/jacobpina/.config/steamtinkerlaunch/compatdata/Metro Exodus' already points to the correct directory '/run/media/jacobpina/DATA/SteamLibrary/steamapps/compatdata/412020'
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - delayGameForCustomLaunch - Nothing to do
+Wed Jan 24 08:10:52 PM MST 2024 INFO - prepareLaunch - launchSteamGame:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - launchSteamGame - Initial game command is 'waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setSLRReap - No SLR provided from command line, attempting to fetch required SLR from current compatibility tool's 'toolmanifest.vdf'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getRequireToolAppidPath - Found tool manifest at '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/toolmanifest.vdf', attempting to get 'require_tool_appid' value...
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getRequireToolAppidPath - Got 'require_tool_appid' from '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/toolmanifest.vdf' ('1628350') - Returning path to tool
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getGameDir - Found matching App Manifest file for presumed entered AppID '1628350' - Manifest file is '/home/jacobpina/.local/share/Steam/steamapps/appmanifest_1628350.acf'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setSLRReap - '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper' exists - Path gotten from specified AppID looks valid
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setSLRReap - Building Steam Linux Runtime command for Proton game
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setSLRReap - Adding SLR '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun --' to the launch command
+Wed Jan 24 08:10:52 PM MST 2024 INFO - gameArgs - Game doesn't use any command line arguments
+Wed Jan 24 08:10:52 PM MST 2024 INFO - launchSteamGame - Preparing proton command
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setProtonCmd - Proton override enabled, so checking if it needs updated
+Wed Jan 24 08:10:52 PM MST 2024 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - fillProtonCSV - '"experimental-8.0-20240111c";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setRunProtonFromUseProton - Setting ORUNPROTON to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - setRunProtonFromUseProton - RUNPROTON '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton' hasn't changed
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - fixSymlinks - Fixing Symlinks is not enabled
+Wed Jan 24 08:10:52 PM MST 2024 SKIP - unSymlink - Unsymlinking is not enabled
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setProtonCmd - Prepending Proton 'experimental-8.0-20240111c' (='/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton') to the command line '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setProtonCmd - UPDATED game start command is: /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe
+Wed Jan 24 08:10:52 PM MST 2024 INFO - setProtonCmd - Starting 'Metro Exodus (412020)' with Proton: 'experimental-8.0-20240111c'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - launchSteamGame - Original incoming start command: 'waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - launchSteamGame - Final outgoing start command: '/usr/bin/gamemoderun /home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/412020.conf' START
+Wed Jan 24 08:10:52 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/412020.conf' STOP
+Wed Jan 24 08:10:52 PM MST 2024 INFO - startGame - Getting the Game Window name:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - startGame - Full start command is '/usr/bin/gamemoderun /home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - getGameWindowName - No gamewindow name stored in metadata '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/412020.conf' yet. Trying to find it now
+Wed Jan 24 08:10:52 PM MST 2024 INFO - startGame - Rebuilding STEAM_COMPAT_TOOL_PATHS variable:
+Wed Jan 24 08:10:52 PM MST 2024 INFO - startGame - Adding RUNPROTON '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - startGame - Adding '' because USESLR is enabled
+Wed Jan 24 08:10:52 PM MST 2024 INFO - startGame - Result: Set STEAM_COMPAT_TOOL_PATHS from '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared:/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier' to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental:'
+Wed Jan 24 08:10:52 PM MST 2024 WAIT - getGameWindowPID - Sec 0/20 Game Window with pwd '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' not yet in front
+Wed Jan 24 08:10:52 PM MST 2024 INFO - startGame - ## ORIGINAL INCOMING LAUNCH COMMAND: 'waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - startGame - ## STL LAUNCH COMMAND: '/usr/bin/gamemoderun /home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe'
+Wed Jan 24 08:10:52 PM MST 2024 INFO - startGame - ## GAMESTART HERE ###
+Wed Jan 24 08:10:52 PM MST 2024 INFO - restoreOrgVars - Restoring previously cleared Variables
+Wed Jan 24 08:10:54 PM MST 2024 WAIT - getGameWindowPID - Sec 1/20 Game Window with pwd '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus' not yet in front
+Wed Jan 24 08:10:54 PM MST 2024 INFO - startGame - Symlink '/home/jacobpina/.config/steamtinkerlaunch/logs/gamelaunch/title/Metro Exodus.log' already exists
+Wed Jan 24 08:10:54 PM MST 2024 ERROR - startGame - Could not determine pid of '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wineserver'
+Wed Jan 24 08:10:54 PM MST 2024 INFO - startGame - ## GAMESTOP after '2' seconds playtime
+Wed Jan 24 08:10:54 PM MST 2024 STOP - ######### SteamTinkerLaunch v12.12 #########
+Wed Jan 24 08:10:54 PM MST 2024 STOP - ######### CLEANUP #########
+Wed Jan 24 08:10:54 PM MST 2024 INFO - closeSTL - closing STL
+Wed Jan 24 08:10:54 PM MST 2024 INFO - updateConfigEntry - Emptying 'CUSTOMCMD' for '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf'
+Wed Jan 24 08:10:54 PM MST 2024 INFO - updateConfigEntry - Option 'CUSTOMCMD' is updated with the new value 'echo' in config 'default_template.conf'
+Wed Jan 24 08:10:54 PM MST 2024 INFO - closeSTL - Creating '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Wed Jan 24 08:10:54 PM MST 2024 INFO - checkPlayTime - The game stopped after '2' seconds - opening CrashGuess Requester
+Wed Jan 24 08:10:54 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/412020.bin'
+Wed Jan 24 08:10:54 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Wed Jan 24 08:10:55 PM MST 2024 INFO - pollWinRes - Using GEOM '--geometry=1257x1412+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-CrashGuess.conf'
+Wed Jan 24 08:10:55 PM MST 2024 WAIT - getGameWindowPID - steamtinkerlaunch is just closing - leaving loop
+Wed Jan 24 08:10:55 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/412020/SteamTinkerLaunch-CrashGuess.conf' with incoming '1257x1412'
+Wed Jan 24 08:10:55 PM MST 2024 INFO - setShowPic - Determining game picture
+Wed Jan 24 08:10:55 PM MST 2024 INFO - setShowPic - Using '/home/jacobpina/.config/steamtinkerlaunch/games/header/412020.jpg' as game picture
+Wed Jan 24 08:10:55 PM MST 2024 WAIT - updateWinRes - steamtinkerlaunch is just closing - leaving loop
+Wed Jan 24 08:10:55 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-CrashGuess' is running - polling the resolution
+Wed Jan 24 08:10:55 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-CrashGuess' was closed - the resolution didn't change - nothing to do
+Wed Jan 24 08:10:59 PM MST 2024 SKIP - checkPlayTime - Selected 'NO' - Exiting regularly
+Wed Jan 24 08:10:59 PM MST 2024 INFO - closeSTL - Game 'Metro Exodus (412020)' exited - cleaning up custom processes if necessary
+Wed Jan 24 08:10:59 PM MST 2024 INFO - closeTrayIcon - Closing TrayIcon '126993'
+Wed Jan 24 08:11:00 PM MST 2024 INFO - closeSTL - Removing '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Wed Jan 24 08:11:00 PM MST 2024 STOP - ######### closeSTL SteamTinkerLaunch v12.12 #########
+Wed Jan 24 08:11:00 PM MST 2024 INFO - writeLastRun - Recreating /home/jacobpina/.config/steamtinkerlaunch/logs/steamtinkerlaunch/lastrun.txt
+Wed Jan 24 08:11:00 PM MST 2024 INFO - storeMetaData - Saving metadata for game 'Metro Exodus (412020)'
+Wed Jan 24 08:11:00 PM MST 2024 INFO - updateConfigEntry - 'GAMEID' option missing in config '412020.conf' - adding a new line
+Wed Jan 24 08:11:00 PM MST 2024 INFO - getArch - Architecture for '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe' is 64bit
+Wed Jan 24 08:11:00 PM MST 2024 INFO - updateConfigEntry - 'GAMEARCH' option missing in config '412020.conf' - adding a new line
+Wed Jan 24 08:11:00 PM MST 2024 INFO - updateConfigEntry - 'WINEPREFIX' option missing in config '412020.conf' - adding a new line
+Wed Jan 24 08:11:00 PM MST 2024 INFO - updateConfigEntry - 'MEGAMEDIR' option missing in config '412020.conf' - adding a new line
+Wed Jan 24 08:11:00 PM MST 2024 INFO - storeMetaData - Set symlink from '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/412020.conf' to '/home/jacobpina/.config/steamtinkerlaunch/meta/title/general/Metro Exodus.conf'
+Wed Jan 24 08:11:00 PM MST 2024 INFO - storeMetaData - Set symlink from '/home/jacobpina/.config/steamtinkerlaunch/meta/id/custom/412020.conf' to '/home/jacobpina/.config/steamtinkerlaunch/meta/title/custom/Metro Exodus.conf'
+Wed Jan 24 08:11:00 PM MST 2024 INFO - storeMetaData - Set symlink from '/home/jacobpina/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_412020.vdf' to '/home/jacobpina/.config/steamtinkerlaunch/meta/eval/title/evaluatorscript_Metro Exodus.vdf'
+Wed Jan 24 08:11:00 PM MST 2024 INFO - closeSTL - Game 'Metro Exodus (412020)' exited - cleaning up custom processes if necessary
+Wed Jan 24 08:11:00 PM MST 2024 INFO - closeTrayIcon - Closing TrayIcon '126993'
+Wed Jan 24 08:11:01 PM MST 2024 INFO - closeSTL - Removing '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Wed Jan 24 08:11:01 PM MST 2024 STOP - ######### closeSTL SteamTinkerLaunch v12.12 #########
+Wed Jan 24 08:11:01 PM MST 2024 INFO - writeLastRun - Recreating /home/jacobpina/.config/steamtinkerlaunch/logs/steamtinkerlaunch/lastrun.txt
+Wed Jan 24 08:11:01 PM MST 2024 INFO - storeMetaData - Saving metadata for game 'Metro Exodus (412020)'
+Wed Jan 24 08:11:01 PM MST 2024 INFO - getArch - Architecture for '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe' is 64bit
+Wed Jan 24 08:11:01 PM MST 2024 INFO - storeMetaData - Symlink '/home/jacobpina/.config/steamtinkerlaunch/meta/eval/title/evaluatorscript_Metro Exodus.vdf' already exists
+Wed Jan 24 08:11:01 PM MST 2024 INFO - closeSTL - Game 'Metro Exodus (412020)' exited - cleaning up custom processes if necessary
+Wed Jan 24 08:11:01 PM MST 2024 INFO - closeTrayIcon - Closing TrayIcon '126993'
+Wed Jan 24 08:11:02 PM MST 2024 INFO - closeSTL - Removing '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Wed Jan 24 08:11:02 PM MST 2024 STOP - ######### closeSTL SteamTinkerLaunch v12.12 #########
+Wed Jan 24 08:11:02 PM MST 2024 INFO - writeLastRun - Recreating /home/jacobpina/.config/steamtinkerlaunch/logs/steamtinkerlaunch/lastrun.txt
+Wed Jan 24 08:11:02 PM MST 2024 INFO - storeMetaData - Saving metadata for game 'Metro Exodus (412020)'
+Wed Jan 24 08:11:02 PM MST 2024 INFO - getArch - Architecture for '/run/media/jacobpina/DATA/SteamLibrary/steamapps/common/Metro Exodus/MetroExodus.exe' is 64bit
+Wed Jan 24 08:11:02 PM MST 2024 INFO - storeMetaData - Symlink '/home/jacobpina/.config/steamtinkerlaunch/meta/eval/title/evaluatorscript_Metro Exodus.vdf' already exists

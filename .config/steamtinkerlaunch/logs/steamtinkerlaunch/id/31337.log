@@ -1,0 +1,50 @@
+Fri Feb 23 10:01:04 PM MST 2024 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '0'
+Fri Feb 23 10:01:04 PM MST 2024 INFO - initAID - Set AID to PLACEHOLDERAID '31337'
+Fri Feb 23 10:01:04 PM MST 2024 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/jacobpina/.local/share/Steam/steamapps/compatdata/0'
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLangFile - Language from command line is 'english'
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLangFile - Loading found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt
+Fri Feb 23 10:01:04 PM MST 2024 INFO - getCurrentCommandline - No Proton in command line arguments 'run /home/jacobpina/.local/share/Steam/ubuntu12_32/../bin/d3ddriverquery64.exe -d3d12'
+Fri Feb 23 10:01:04 PM MST 2024 INFO - saveOrgVars - Storing some original variables to restore them later
+Fri Feb 23 10:01:04 PM MST 2024 INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+Fri Feb 23 10:01:04 PM MST 2024 INFO - emptyVars - Set $PATH to '/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/home/jacobpina/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/jacobpina/.local/bin:'
+Fri Feb 23 10:01:04 PM MST 2024 START - ######### Initializing Game Launch 31337 using SteamTinkerLaunch v12.12 #########
+Fri Feb 23 10:01:04 PM MST 2024 INFO - main - Starting with a clean log
+Fri Feb 23 10:01:04 PM MST 2024 INFO - main - Start creating default configs
+Fri Feb 23 10:01:04 PM MST 2024 INFO - createDefaultCfgs - START
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLangFile - Language from command line is 'english'
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLangFile - GLOBALSTLLANGDIR is '/usr/share/steamtinkerlaunch/lang'
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLangFile - Found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt, attempting to update it
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLangFile - Found lang file to replace the existing user-installed file with under '/usr/share/steamtinkerlaunch/lang/english.txt'
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLangFile - Loading found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLanguage - Loading STLLANG from '/home/jacobpina/.config/steamtinkerlaunch/global.conf'
+Fri Feb 23 10:01:04 PM MST 2024 INFO - loadLanguage - STLLANG from '/home/jacobpina/.config/steamtinkerlaunch/global.conf' is 'english'
+Fri Feb 23 10:01:04 PM MST 2024 INFO - createDefaultCfgs - setSteamPaths:
+Fri Feb 23 10:01:04 PM MST 2024 INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+Fri Feb 23 10:01:04 PM MST 2024 INFO - getGameOS - Starting game OS detection
+Fri Feb 23 10:01:04 PM MST 2024 WARN - getGameOS - Could not extract the full game binary path from the incoming game launch command, so assuming this is a Windows game!
+Fri Feb 23 10:01:04 PM MST 2024 INFO - setWin - '' determined to be a Windows Game
+Fri Feb 23 10:01:04 PM MST 2024 INFO - createDefaultCfgs - createProtonList:
+Fri Feb 23 10:01:04 PM MST 2024 INFO - createDefaultCfgs - createProtonList end
+Fri Feb 23 10:01:04 PM MST 2024 INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+Fri Feb 23 10:01:04 PM MST 2024 INFO - createDefaultCfgs - STOP
+Fri Feb 23 10:01:04 PM MST 2024 SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+Fri Feb 23 10:01:05 PM MST 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/jacobpina/.local/share/Steam/steamapps:/run/media/jacobpina/DATA/SteamLibrary/steamapps'
+Fri Feb 23 10:01:05 PM MST 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared:/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Fri Feb 23 10:01:05 PM MST 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared:/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Fri Feb 23 10:01:05 PM MST 2024 INFO - main - Checking internal dependencies:
+Fri Feb 23 10:01:05 PM MST 2024 INFO - setAwkBin - Found 'gawk' as an 'awk' variant. It should work without any issues, because 'gawk' was tested completely
+Fri Feb 23 10:01:05 PM MST 2024 INFO - checkIntDeps - Result of version check for yad binary '/usr/bin/yad' is '13.0'
+Fri Feb 23 10:01:05 PM MST 2024 INFO - main - Initializing first Proton:
+Fri Feb 23 10:01:05 PM MST 2024 INFO - initOldProtonArr - Creating an initial array with available Proton versions using the file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt' which was created during a previous run
+Fri Feb 23 10:01:05 PM MST 2024 INFO - initFirstProton - Initializing Proton
+Fri Feb 23 10:01:05 PM MST 2024 INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf' is 'proton-8.0-5c'
+Fri Feb 23 10:01:05 PM MST 2024 INFO - main - Initializing default window resolution
+Fri Feb 23 10:01:05 PM MST 2024 INFO - setInitWinXY - Using '2580x1080' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+Fri Feb 23 10:01:05 PM MST 2024 INFO - main - Welcome to SteamTinkerLaunch
+Fri Feb 23 10:01:05 PM MST 2024 INFO - removeEmptyFiles - Removing empty files from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo'
+Fri Feb 23 10:01:05 PM MST 2024 INFO - removeEmptyFiles - Removing empty files from '/home/jacobpina/.config/steamtinkerlaunch/games/header'
+Fri Feb 23 10:01:05 PM MST 2024 INFO - main - Checking command line: incoming arguments 'run /home/jacobpina/.local/share/Steam/ubuntu12_32/../bin/d3ddriverquery64.exe -d3d12'

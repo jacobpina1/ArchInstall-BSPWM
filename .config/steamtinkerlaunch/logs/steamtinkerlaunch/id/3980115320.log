@@ -1,0 +1,236 @@
+Tue Feb  6 13:12:50 MST 2024 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '0'
+Tue Feb  6 13:12:50 MST 2024 INFO - initAID - Set AID from STEAM_COMPAT_DATA_PATH '/home/jacobpina/.local/share/Steam/steamapps/compatdata/3980115320' to '3980115320', because SteamAppId is '0'
+Tue Feb  6 13:12:50 MST 2024 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/jacobpina/.local/share/Steam/steamapps/compatdata/3980115320'
+Tue Feb  6 13:12:50 MST 2024 INFO - loadLangFile - Language from command line is 'english'
+Tue Feb  6 13:12:50 MST 2024 INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+Tue Feb  6 13:12:50 MST 2024 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Tue Feb  6 13:12:51 MST 2024 INFO - loadLangFile - Loading found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt
+Tue Feb  6 13:12:51 MST 2024 INFO - getCurrentCommandline - No Proton in command line arguments 'waitforexitandrun /run/media/jacobpina/DATA/Games/workingedlen/New/eldenring.exe'
+Tue Feb  6 13:12:51 MST 2024 INFO - saveOrgVars - Storing some original variables to restore them later
+Tue Feb  6 01:12:52 PM MST 2024 INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+Tue Feb  6 01:12:52 PM MST 2024 INFO - emptyVars - Set $PATH to '/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/home/jacobpina/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:'
+Tue Feb  6 01:12:52 PM MST 2024 START - ######### Initializing Game Launch 3980115320 using SteamTinkerLaunch v12.12 #########
+Tue Feb  6 01:12:52 PM MST 2024 INFO - main - Starting with a clean log
+Tue Feb  6 01:12:52 PM MST 2024 INFO - main - Start creating default configs
+Tue Feb  6 01:12:52 PM MST 2024 INFO - createDefaultCfgs - START
+Tue Feb  6 01:12:52 PM MST 2024 INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+Tue Feb  6 01:12:52 PM MST 2024 INFO - loadLangFile - Language from command line is 'english'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - loadLangFile - GLOBALSTLLANGDIR is '/usr/share/steamtinkerlaunch/lang'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Tue Feb  6 01:12:52 PM MST 2024 INFO - loadLangFile - Found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt, attempting to update it
+Tue Feb  6 01:12:52 PM MST 2024 INFO - loadLangFile - Found lang file to replace the existing user-installed file with under '/usr/share/steamtinkerlaunch/lang/english.txt'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - loadLangFile - Loading found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt
+Tue Feb  6 01:12:52 PM MST 2024 INFO - loadLanguage - Loading STLLANG from '/home/jacobpina/.config/steamtinkerlaunch/global.conf'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - loadLanguage - STLLANG from '/home/jacobpina/.config/steamtinkerlaunch/global.conf' is 'english'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - createDefaultCfgs - setSteamPaths:
+Tue Feb  6 01:12:52 PM MST 2024 INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - getGameOS - Starting game OS detection
+Tue Feb  6 01:12:52 PM MST 2024 INFO - getGameOS - Making some checks on '/run/media/jacobpina/DATA/Games/workingedlen/New/eldenring.exe' to determine the OS version of the game
+Tue Feb  6 01:12:52 PM MST 2024 INFO - getGameOS - Looks like this is a Windows game!
+Tue Feb  6 01:12:52 PM MST 2024 INFO - setWin - 'eldenring' determined to be a Windows Game
+Tue Feb  6 01:12:52 PM MST 2024 INFO - createDefaultCfgs - createProtonList:
+Tue Feb  6 01:12:52 PM MST 2024 INFO - createDefaultCfgs - createProtonList end
+Tue Feb  6 01:12:52 PM MST 2024 INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+Tue Feb  6 01:12:52 PM MST 2024 INFO - createDefaultCfgs - STOP
+Tue Feb  6 01:12:52 PM MST 2024 SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/jacobpina/.local/share/Steam/steamapps:/run/media/jacobpina/DATA/SteamLibrary/steamapps'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared:/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared:/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - main - Checking internal dependencies:
+Tue Feb  6 01:12:52 PM MST 2024 INFO - setAwkBin - Found 'gawk' as an 'awk' variant. It should work without any issues, because 'gawk' was tested completely
+Tue Feb  6 01:12:52 PM MST 2024 INFO - checkIntDeps - Result of version check for yad binary '/usr/bin/yad' is '13.0'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - main - Initializing first Proton:
+Tue Feb  6 01:12:52 PM MST 2024 INFO - initOldProtonArr - Creating an initial array with available Proton versions using the file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt' which was created during a previous run
+Tue Feb  6 01:12:52 PM MST 2024 INFO - initFirstProton - Initializing Proton
+Tue Feb  6 01:12:52 PM MST 2024 INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf' is 'proton-8.0-5c'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - main - Initializing default window resolution
+Tue Feb  6 01:12:52 PM MST 2024 INFO - setInitWinXY - Using '2580x1080' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - main - Welcome to SteamTinkerLaunch
+Tue Feb  6 01:12:52 PM MST 2024 INFO - removeEmptyFiles - Removing empty files from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - removeEmptyFiles - Removing empty files from '/home/jacobpina/.config/steamtinkerlaunch/games/header'
+Tue Feb  6 01:12:52 PM MST 2024 INFO - main - Checking command line: incoming arguments 'waitforexitandrun /run/media/jacobpina/DATA/Games/workingedlen/New/eldenring.exe'
+Tue Feb  6 01:12:52 PM MST 2024 SKIP - getGameOS - ISGAME is already set to '2' - nothing to determine
+Tue Feb  6 01:12:52 PM MST 2024 INFO - linkLog - Symlink '/home/jacobpina/.config/steamtinkerlaunch/logs/steamtinkerlaunch/title/eldenring.log' already exists
+Tue Feb  6 01:12:53 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/3980115320.bin'
+Tue Feb  6 01:12:53 PM MST 2024 START - ######### Game Launch: eldenring (3980115320) #########
+Tue Feb  6 01:12:53 PM MST 2024 INFO - dlCheck - Downloading picture for game '3980115320'
+Tue Feb  6 01:12:53 PM MST 2024 INFO - notiShow - Message 'Downloading '/home/jacobpina/.config/steamtinkerlaunch/games/header/3980115320.jpg'' should go to StatusWindow
+Tue Feb  6 01:12:53 PM MST 2024 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/3980115320/header.jpg -O /home/jacobpina/.config/steamtinkerlaunch/games/header/3980115320.jpg'
+Tue Feb  6 01:12:53 PM MST 2024 INFO - prepareLaunch - Game launch args '/run/media/jacobpina/DATA/Games/workingedlen/New/eldenring.exe'
+Tue Feb  6 01:12:53 PM MST 2024 INFO - prepareLaunch - Gamedir '/run/media/jacobpina/DATA/Games/workingedlen/New'
+Tue Feb  6 01:12:53 PM MST 2024 INFO - prepareLaunch - Proton wineprefix '/home/jacobpina/.local/share/Steam/steamapps/compatdata/3980115320/pfx'
+Tue Feb  6 01:12:53 PM MST 2024 INFO - prepareLaunch - No INGCMD but valid ORGGCMD - May be Non-Steam game
+Tue Feb  6 01:12:53 PM MST 2024 INFO - prepareLaunch -------------------
+Tue Feb  6 01:12:53 PM MST 2024 INFO - prepareLaunch - CreateGameCfg:
+Tue Feb  6 01:12:53 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/3980115320.conf' already at version 'v12.12'
+Tue Feb  6 01:12:53 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/eldenring.conf' already exists
+Tue Feb  6 01:12:53 PM MST 2024 INFO - prepareLaunch - First LoadCfg: /home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/3980115320.conf
+Tue Feb  6 01:12:53 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/3980115320.conf' START
+Tue Feb  6 01:12:53 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/3980115320.conf'
+Tue Feb  6 01:12:53 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/3980115320.conf' does not exist - nothing to do
+Tue Feb  6 01:12:53 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/3980115320.conf' STOP
+Tue Feb  6 01:12:59 PM MST 2024 SKIP - autoBumpReShade - '5.9.1' is the latest version of 'ReShade' - not updating
+Tue Feb  6 01:12:59 PM MST 2024 INFO - prepareLaunch - Initial Proton version from the game config: 'experimental-8.0-20240111c'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - prepareLaunch - Initializing internal Proton Vars for 'experimental-8.0-20240111c' using setNewProtVars
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setNewProtVars - Setting new Proton Variables based on '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setNewProtVars - Continuing with RUNPROTON='/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setRunWineServer - Set the wine binary for proton in path '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setRunWineServer - to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wine'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setRunWineServer - and wineserver to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wineserver'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - prepareLaunch - OpenTrayIcon:
+Tue Feb  6 01:12:59 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '3980115320' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Tue Feb  6 01:12:59 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Tue Feb  6 01:12:59 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setShaderDest - Determining Shader destination directory SHADDESTDIR
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setShaderDest - Using variable ABSGAMEEXEPATH for Shader destination directory '/run/media/jacobpina/DATA/Games/workingedlen/New'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setShaderDest - Using Shader destination directory '/run/media/jacobpina/DATA/Games/workingedlen/New'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setShaderDest - Shader destination directory is '/run/media/jacobpina/DATA/Games/workingedlen/New'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/Games/workingedlen/New' for 'SHADDESTDIR'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - openTrayIcon - Opening trayIcon:
+Tue Feb  6 01:12:59 PM MST 2024 INFO - prepareLaunch - sortGameArgs:
+Tue Feb  6 01:12:59 PM MST 2024 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Tue Feb  6 01:12:59 PM MST 2024 INFO - prepareLaunch - AskSettings:
+Tue Feb  6 01:12:59 PM MST 2024 INFO - askSettings - Using game specific requester timeout '2'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - askSettings - Opening Requester with timeout '2'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/jacobpina/.local/share/Steam/steamapps/compatdata/3980115320/pfx/drive_c/users/steamuser'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/3980115320.bin'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - pollWinRes - Using GEOM '--geometry=1696x1368+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/3980115320/SteamTinkerLaunch-OpenSettings.conf'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/3980115320/SteamTinkerLaunch-OpenSettings.conf' with incoming '1696x1368'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setShowPic - Determining game picture
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setShowPic - Game header picture exists at '/home/jacobpina/.config/steamtinkerlaunch/games/header/3980115320.jpg' but has zero bytes. Attempting one redownload
+Tue Feb  6 01:12:59 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - dlCheck - Downloading picture for game '3980115320'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - notiShow - Message 'Downloading '/home/jacobpina/.config/steamtinkerlaunch/games/header/3980115320.jpg'' should go to StatusWindow
+Tue Feb  6 01:12:59 PM MST 2024 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/3980115320/header.jpg -O /home/jacobpina/.config/steamtinkerlaunch/games/header/3980115320.jpg'
+Tue Feb  6 01:12:59 PM MST 2024 INFO - setShowPic - Could not redownload header picture, defaulting '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' to STL icon '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' (Maybe we're offline?)
+Tue Feb  6 01:12:59 PM MST 2024 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Tue Feb  6 01:12:59 PM MST 2024 INFO - askSettings - Could not retrieve Steam Deck compatibility rating, defaulting to Unknown - Maybe 'jq' is missing or we are offline?
+Tue Feb  6 01:12:59 PM MST 2024 INFO - askSettings - Steam Deck compatibility rating string is '<b>Steam Deck Compatibility:</b> '
+Tue Feb  6 01:12:59 PM MST 2024 INFO - askSettings - Preparing to show Wait Requester
+Tue Feb  6 01:13:00 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-OpenSettings' is running - polling the resolution
+Tue Feb  6 01:13:03 PM MST 2024 INFO - askSettings - TIMEOUT - Starting game without opening the Settings Menu
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - Second LoadCfg after menus: /home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/3980115320.conf
+Tue Feb  6 01:13:03 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/3980115320.conf' START
+Tue Feb  6 01:13:03 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/3980115320.conf'
+Tue Feb  6 01:13:03 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/3980115320.conf' does not exist - nothing to do
+Tue Feb  6 01:13:03 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/3980115320.conf' STOP
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setDxvkVars - Exporting variable 'DXVK_FRAME_RATE=none' to limit game framerate
+Tue Feb  6 01:13:03 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '3980115320' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Tue Feb  6 01:13:03 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Tue Feb  6 01:13:03 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - sortGameArgs again, in case something changed above:
+Tue Feb  6 01:13:03 PM MST 2024 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - symlinkSteamUser:
+Tue Feb  6 01:13:03 PM MST 2024 SKIP - symlinkSteamUser - Symlinking steamuser is disabled - Checking if a symlink needs to be reverted
+Tue Feb  6 01:13:03 PM MST 2024 SKIP - symlinkSteamUser - '/home/jacobpina/.local/share/Steam/steamapps/compatdata/3980115320/pfx/drive_c/users/steamuser' is no symlink - nothing to do
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - restoreSteamUser:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - restoreSteamUser - Using configured value 'none' for RESTORESTEAMUSER
+Tue Feb  6 01:13:03 PM MST 2024 INFO - restoreSteamUser - Restoration of steamuser data is disabled with RESTORESTEAMUSER being 'none
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - prepareProton:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - setLinGameVals :
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - CheckTweakLaunch:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - checkXliveless:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - chooseWinetricks:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - checkExtDeps:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - checkExtDeps done
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - setWineVars:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - CheckWinetricksLaunch:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - CheckWineCfgLaunch:
+Tue Feb  6 01:13:03 PM MST 2024 WARN - checkWineCfgLaunch - Function was called but RUN_WINECFG ('0') was not enabled - skipping
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - CustomRegs:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - TogWindows:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - StateSteamWebHelper:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - InstallReshade:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - installDepth3DReshade:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - checkReshade:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '3980115320' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Tue Feb  6 01:13:03 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Tue Feb  6 01:13:03 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/Games/workingedlen/New' for 'SHADDESTDIR'
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - useSpecialK:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/Games/workingedlen/New' for 'SPEKDDIR'
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - configureGeoElf:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/Games/workingedlen/New' for 'GEOELFDDIR'
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - ChooseShaders:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - UseNyrnaz:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - UseReplay:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - CheckSBSVRLaunch:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - checkMO2:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - setNewRes:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - customUserScriptStart:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - redirectSCDP:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - redirectSCDP - Using Proton version with minor version fix 'experimental-8.0-20240111c' for compatdata directory name
+Tue Feb  6 01:13:03 PM MST 2024 INFO - redirectSCDP - Using regular compatdata '/home/jacobpina/.local/share/Steam/steamapps/compatdata/3980115320'
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - checkIGCSInjector:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - checkOpenVRFSR:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - CheckFWS:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - loadCustomVars - Empty global config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/global-custom-vars.conf' for user defined custom variables not loaded
+Tue Feb  6 01:13:03 PM MST 2024 INFO - loadCustomVars - Empty game-specific config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/3980115320.conf' for user defined custom variables not loaded
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - CheckCustomLaunch:
+Tue Feb  6 01:13:03 PM MST 2024 SKIP - checkCustomLaunch - USECUSTOMCMD is '0' therefore skipping the custom program '/run/media/jacobpina/DATA/Games/workingedlen/New/eldenring.exe'
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - checkUUUPatchLaunch:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - CheckStraceLaunch:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - CheckNetMonLaunch:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - checkWDIB:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - checkPulse:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - checkSteamAppIDFile:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - checkSteamAppIDFile - STEAMAPPIDFILE is disabled and there's no '/run/media/jacobpina/DATA/Games/workingedlen/New/steam_appid.txt' - nothing to do
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - setCompatDataTitle:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setCompatDataTitle - Symlink /home/jacobpina/.config/steamtinkerlaunch/compatdata/eldenring already exists
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setCompatDataTitle - Symlink '/home/jacobpina/.config/steamtinkerlaunch/compatdata/eldenring' already points to the correct directory '/home/jacobpina/.local/share/Steam/steamapps/compatdata/3980115320'
+Tue Feb  6 01:13:03 PM MST 2024 SKIP - delayGameForCustomLaunch - Nothing to do
+Tue Feb  6 01:13:03 PM MST 2024 INFO - prepareLaunch - launchSteamGame:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - launchSteamGame - Initial game command is ''
+Tue Feb  6 01:13:03 PM MST 2024 INFO - gameArgs - Game doesn't use any command line arguments
+Tue Feb  6 01:13:03 PM MST 2024 INFO - launchSteamGame - Preparing proton command
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setProtonCmd - Proton override enabled, so checking if it needs updated
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setRunProtonFromUseProton - Setting ORUNPROTON to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Tue Feb  6 01:13:03 PM MST 2024 SKIP - setRunProtonFromUseProton - RUNPROTON '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton' hasn't changed
+Tue Feb  6 01:13:03 PM MST 2024 SKIP - fixSymlinks - Fixing Symlinks is not enabled
+Tue Feb  6 01:13:03 PM MST 2024 SKIP - unSymlink - Unsymlinking is not enabled
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setProtonCmd - Prepending Proton 'experimental-8.0-20240111c' (='/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton') to the command line '/run/media/jacobpina/DATA/Games/workingedlen/New/eldenring.exe'
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setProtonCmd - UPDATED game start command is: /run/media/jacobpina/DATA/Games/workingedlen/New/eldenring.exe
+Tue Feb  6 01:13:03 PM MST 2024 INFO - setProtonCmd - Starting 'eldenring (3980115320)' with Proton: 'experimental-8.0-20240111c'
+Tue Feb  6 01:13:03 PM MST 2024 INFO - launchSteamGame - Original incoming start command: ''
+Tue Feb  6 01:13:03 PM MST 2024 INFO - launchSteamGame - Final outgoing start command: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/Games/workingedlen/New/eldenring.exe'
+Tue Feb  6 01:13:03 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/3980115320.conf' START
+Tue Feb  6 01:13:03 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/3980115320.conf' STOP
+Tue Feb  6 01:13:03 PM MST 2024 INFO - startGame - Getting the Game Window name:
+Tue Feb  6 01:13:03 PM MST 2024 INFO - getGameWindowName - No gamewindow name stored in metadata '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/3980115320.conf' yet. Trying to find it now
+Tue Feb  6 01:13:03 PM MST 2024 INFO - startGame - Full start command is '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/Games/workingedlen/New/eldenring.exe'
+Tue Feb  6 01:13:03 PM MST 2024 INFO - startGame - ## ORIGINAL INCOMING LAUNCH COMMAND: ''
+Tue Feb  6 01:13:03 PM MST 2024 INFO - startGame - ## STL LAUNCH COMMAND: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/Games/workingedlen/New/eldenring.exe'
+Tue Feb  6 01:13:03 PM MST 2024 INFO - startGame - ## GAMESTART HERE ###
+Tue Feb  6 01:13:03 PM MST 2024 INFO - restoreOrgVars - Restoring previously cleared Variables
+Tue Feb  6 01:13:03 PM MST 2024 WAIT - getGameWindowPID - Sec 0/20 Game Window with pwd '/run/media/jacobpina/DATA/Games/workingedlen/New' not yet in front
+Tue Feb  6 01:13:03 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-OpenSettings' was closed - the resolution didn't change - nothing to do
+Tue Feb  6 01:13:04 PM MST 2024 WAIT - getGameWindowPID - Sec 1/20 Game Window with pwd '/run/media/jacobpina/DATA/Games/workingedlen/New' not yet in front
+Tue Feb  6 01:13:05 PM MST 2024 WAIT - getGameWindowPID - Sec 2/20 Game Window with pwd '/run/media/jacobpina/DATA/Games/workingedlen/New' not yet in front
+Tue Feb  6 01:13:06 PM MST 2024 WAIT - getGameWindowPID - Sec 3/20 Game Window with pwd '/run/media/jacobpina/DATA/Games/workingedlen/New' not yet in front
+Tue Feb  6 01:13:07 PM MST 2024 WAIT - getGameWindowPID - Sec 4/20 Game Window with pwd '/run/media/jacobpina/DATA/Games/workingedlen/New' not yet in front
+Tue Feb  6 01:13:07 PM MST 2024 INFO - startGame - Symlink '/home/jacobpina/.config/steamtinkerlaunch/logs/gamelaunch/title/eldenring.log' already exists
+Tue Feb  6 01:13:07 PM MST 2024 ERROR - startGame - Could not determine pid of '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wineserver'
+Tue Feb  6 01:13:07 PM MST 2024 INFO - startGame - ## GAMESTOP after '4' seconds playtime
+Tue Feb  6 01:13:07 PM MST 2024 STOP - ######### SteamTinkerLaunch v12.12 #########
+Tue Feb  6 01:13:07 PM MST 2024 STOP - ######### CLEANUP #########
+Tue Feb  6 01:13:07 PM MST 2024 INFO - closeSTL - closing STL
+Tue Feb  6 01:13:07 PM MST 2024 INFO - updateConfigEntry - Emptying 'CUSTOMCMD' for '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf'
+Tue Feb  6 01:13:07 PM MST 2024 INFO - updateConfigEntry - Option 'CUSTOMCMD' is updated with the new value 'echo' in config 'default_template.conf'
+Tue Feb  6 01:13:07 PM MST 2024 INFO - closeSTL - Creating '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Tue Feb  6 01:13:07 PM MST 2024 INFO - checkPlayTime - The game was not started via 'steamtinkerlaunch' but directly from Steam - skipping Crash Requester
+Tue Feb  6 01:13:07 PM MST 2024 INFO - closeSTL - Game 'eldenring (3980115320)' exited - cleaning up custom processes if necessary
+Tue Feb  6 01:13:07 PM MST 2024 INFO - closeTrayIcon - Closing TrayIcon '29935'
+Tue Feb  6 01:13:08 PM MST 2024 WAIT - getGameWindowPID - steamtinkerlaunch is just closing - leaving loop
+Tue Feb  6 01:13:09 PM MST 2024 INFO - closeSTL - Removing '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Tue Feb  6 01:13:09 PM MST 2024 STOP - ######### closeSTL SteamTinkerLaunch v12.12 #########
+Tue Feb  6 01:13:09 PM MST 2024 INFO - writeLastRun - Recreating /home/jacobpina/.config/steamtinkerlaunch/logs/steamtinkerlaunch/lastrun.txt
+Tue Feb  6 01:13:09 PM MST 2024 INFO - storeMetaData - Saving metadata for game 'eldenring (3980115320)'
+Tue Feb  6 01:13:09 PM MST 2024 INFO - getArch - Architecture for '/run/media/jacobpina/DATA/Games/workingedlen/New/eldenring.exe' is 64bit
+Tue Feb  6 01:13:09 PM MST 2024 INFO - storeMetaData - '/home/jacobpina/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_3980115320.vdf' does not exists

@@ -1,0 +1,546 @@
+Thu Dec 14 14:01:05 MST 2023 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '0'
+Thu Dec 14 14:01:05 MST 2023 INFO - initAID - Set AID from STEAM_COMPAT_DATA_PATH '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4264407020' to '4264407020', because SteamAppId is '0'
+Thu Dec 14 14:01:06 MST 2023 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4264407020'
+Thu Dec 14 14:01:06 MST 2023 INFO - loadLangFile - Language from command line is 'english'
+Thu Dec 14 14:01:06 MST 2023 INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+Thu Dec 14 14:01:06 MST 2023 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Thu Dec 14 14:01:06 MST 2023 INFO - loadLangFile - Loading found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt
+Thu Dec 14 14:01:07 MST 2023 INFO - getCurrentCommandline - No Proton in command line arguments 'waitforexitandrun /run/media/jacobpina/DATA/Games/Lethal Company/Lethal Company.exe'
+Thu Dec 14 14:01:07 MST 2023 INFO - saveOrgVars - Storing some original variables to restore them later
+Thu Dec 14 02:01:07 PM MST 2023 INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+Thu Dec 14 02:01:07 PM MST 2023 INFO - emptyVars - Set $PATH to '/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:'
+Thu Dec 14 02:01:07 PM MST 2023 START - ######### Initializing Game Launch 4264407020 using SteamTinkerLaunch v12.12 #########
+Thu Dec 14 02:01:07 PM MST 2023 INFO - main - Starting with a clean log
+Thu Dec 14 02:01:07 PM MST 2023 INFO - main - Start creating default configs
+Thu Dec 14 02:01:07 PM MST 2023 INFO - createDefaultCfgs - START
+Thu Dec 14 02:01:07 PM MST 2023 INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+Thu Dec 14 02:01:07 PM MST 2023 INFO - loadLangFile - Language from command line is 'english'
+Thu Dec 14 02:01:07 PM MST 2023 INFO - loadLangFile - GLOBALSTLLANGDIR is '/usr/share/steamtinkerlaunch/lang'
+Thu Dec 14 02:01:07 PM MST 2023 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Thu Dec 14 02:01:07 PM MST 2023 INFO - loadLangFile - Found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt, attempting to update it
+Thu Dec 14 02:01:07 PM MST 2023 INFO - loadLangFile - Found lang file to replace the existing user-installed file with under '/usr/share/steamtinkerlaunch/lang/english.txt'
+Thu Dec 14 02:01:07 PM MST 2023 INFO - loadLangFile - Loading found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt
+Thu Dec 14 02:01:07 PM MST 2023 INFO - loadLanguage - Loading STLLANG from '/home/jacobpina/.config/steamtinkerlaunch/global.conf'
+Thu Dec 14 02:01:07 PM MST 2023 INFO - loadLanguage - STLLANG from '/home/jacobpina/.config/steamtinkerlaunch/global.conf' is 'english'
+Thu Dec 14 02:01:07 PM MST 2023 INFO - createDefaultCfgs - setSteamPaths:
+Thu Dec 14 02:01:07 PM MST 2023 INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getGameOS - Starting game OS detection
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getGameOS - Making some checks on '/run/media/jacobpina/DATA/Games/Lethal Company/Lethal Company.exe' to determine the OS version of the game
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getGameOS - Looks like this is a Windows game!
+Thu Dec 14 02:01:07 PM MST 2023 INFO - setWin - 'Lethal Company' determined to be a Windows Game
+Thu Dec 14 02:01:07 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:07 PM MST 2023 INFO - createDefaultCfgs - createProtonList:
+Thu Dec 14 02:01:07 PM MST 2023 INFO - createProtonList - Looking for available Proton versions
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:07 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:07 PM MST 2023 INFO - createDefaultCfgs - createProtonList end
+Thu Dec 14 02:01:07 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:07 PM MST 2023 INFO - createProtonList - Looking for available Proton versions
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:07 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:07 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:08 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+Thu Dec 14 02:01:08 PM MST 2023 INFO - createDefaultCfgs - STOP
+Thu Dec 14 02:01:08 PM MST 2023 SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/jacobpina/.local/share/Steam/steamapps:/run/media/jacobpina/DATA/SteamLibrary/steamapps'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - main - Checking internal dependencies:
+Thu Dec 14 02:01:08 PM MST 2023 INFO - checkIntDeps - Result of version check for yad binary '/usr/bin/yad' is '13.0'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - main - Initializing first Proton:
+Thu Dec 14 02:01:08 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - initFirstProton - Initializing Proton
+Thu Dec 14 02:01:08 PM MST 2023 INFO - initFirstProton - No Proton version available in template yet - searching for one
+Thu Dec 14 02:01:08 PM MST 2023 INFO - createProtonList - Looking for available Proton versions
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:08 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:08 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - initFirstProton - Updated 'USEPROTON' in '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf' to ''
+Thu Dec 14 02:01:08 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:08 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:08 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf' is ''
+Thu Dec 14 02:01:08 PM MST 2023 INFO - main - Initializing default window resolution
+Thu Dec 14 02:01:08 PM MST 2023 INFO - setInitWinXY - Using '2580x1080' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - main - Welcome to SteamTinkerLaunch
+Thu Dec 14 02:01:08 PM MST 2023 INFO - removeEmptyFiles - Removing empty files from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - removeEmptyFiles - Removing empty files from '/home/jacobpina/.config/steamtinkerlaunch/games/header'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - main - Checking command line: incoming arguments 'waitforexitandrun /run/media/jacobpina/DATA/Games/Lethal Company/Lethal Company.exe'
+Thu Dec 14 02:01:08 PM MST 2023 SKIP - getGameOS - ISGAME is already set to '2' - nothing to determine
+Thu Dec 14 02:01:08 PM MST 2023 INFO - linkLog - Symlink '/home/jacobpina/.config/steamtinkerlaunch/logs/steamtinkerlaunch/title/Lethal Company.log' already exists
+Thu Dec 14 02:01:08 PM MST 2023 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/4264407020.bin'
+Thu Dec 14 02:01:08 PM MST 2023 START - ######### Game Launch: Lethal Company (4264407020) #########
+Thu Dec 14 02:01:08 PM MST 2023 INFO - dlCheck - Downloading picture for game '4264407020'
+Thu Dec 14 02:01:08 PM MST 2023 INFO - notiShow - Message 'Downloading '/home/jacobpina/.config/steamtinkerlaunch/games/header/4264407020.jpg'' should go to StatusWindow
+Thu Dec 14 02:01:08 PM MST 2023 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/4264407020/header.jpg -O /home/jacobpina/.config/steamtinkerlaunch/games/header/4264407020.jpg'
+Thu Dec 14 02:01:09 PM MST 2023 INFO - prepareLaunch - Game launch args '/run/media/jacobpina/DATA/Games/Lethal Company/Lethal Company.exe'
+Thu Dec 14 02:01:09 PM MST 2023 INFO - prepareLaunch - Gamedir '/run/media/jacobpina/DATA/Games/Lethal Company'
+Thu Dec 14 02:01:09 PM MST 2023 INFO - prepareLaunch - Proton wineprefix '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4264407020/pfx'
+Thu Dec 14 02:01:09 PM MST 2023 INFO - prepareLaunch - No INGCMD but valid ORGGCMD - May be Non-Steam game
+Thu Dec 14 02:01:09 PM MST 2023 INFO - prepareLaunch -------------------
+Thu Dec 14 02:01:09 PM MST 2023 INFO - prepareLaunch - CreateGameCfg:
+Thu Dec 14 02:01:09 PM MST 2023 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' already at version 'v12.12'
+Thu Dec 14 02:01:09 PM MST 2023 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Lethal Company.conf' already exists
+Thu Dec 14 02:01:09 PM MST 2023 INFO - prepareLaunch - First LoadCfg: /home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf
+Thu Dec 14 02:01:09 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' START
+Thu Dec 14 02:01:09 PM MST 2023 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf'
+Thu Dec 14 02:01:09 PM MST 2023 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/4264407020.conf' does not exist - nothing to do
+Thu Dec 14 02:01:09 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' STOP
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - autoBumpReShade - '5.9.1' is the latest version of 'ReShade' - not updating
+Thu Dec 14 02:01:10 PM MST 2023 INFO - prepareLaunch - Initial Proton version from the game config: 'none'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - fixProtonVersionMismatch - Incoming category is 'USEPROTON' with value 'none'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - fixProtonVersionMismatch - Looking for an alternative similar version for 'none'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - fixProtonVersionMismatch - Automatically selecting newest official one
+Thu Dec 14 02:01:10 PM MST 2023 INFO - setNOP - Selecting newest official Proton available
+Thu Dec 14 02:01:10 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - createProtonList - Looking for available Proton versions
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - setNOP - Haven't found anything
+Thu Dec 14 02:01:10 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - fixProtonVersionMismatch - Automatically updating USEPROTON to 'none' in '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - updateConfigEntry - Option 'USEPROTON' is updated with the new value 'none' in config '4264407020.conf'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - prepareLaunch - Initializing internal Proton Vars for 'none' using setNewProtVars
+Thu Dec 14 02:01:10 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:10 PM MST 2023 INFO - setNewProtVars - Setting new Proton Variables based on ''
+Thu Dec 14 02:01:10 PM MST 2023 INFO - setNewProtVars - Continuing with RUNPROTON=''
+Thu Dec 14 02:01:10 PM MST 2023 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Thu Dec 14 02:01:10 PM MST 2023 SKIP - setRunProtonFromUseProton - USEPROTON is empty
+Thu Dec 14 02:01:10 PM MST 2023 WARN - setRunWineServer - Couldn't find the wine binary for the proton in path '' - falling back to 'wine' for plain RUNWINE and 'wineserver' for RUNWINESERVER
+Thu Dec 14 02:01:10 PM MST 2023 INFO - setNewProtVars - Using 'OnlineFix64=n;SteamOverlay64=n;winmm=n,b;steam_api64=n' as 'WINEDLLOVERRIDES' parameter
+Thu Dec 14 02:01:10 PM MST 2023 INFO - prepareLaunch - OpenTrayIcon:
+Thu Dec 14 02:01:11 PM MST 2023 INFO - autoCollectionSettings - Searching collections for game '4264407020' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Thu Dec 14 02:01:11 PM MST 2023 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Thu Dec 14 02:01:11 PM MST 2023 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Thu Dec 14 02:01:11 PM MST 2023 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Thu Dec 14 02:01:11 PM MST 2023 INFO - setShaderDest - Determining Shader destination directory SHADDESTDIR
+Thu Dec 14 02:01:11 PM MST 2023 INFO - setShaderDest - Using variable ABSGAMEEXEPATH for Shader destination directory '/run/media/jacobpina/DATA/Games/Lethal Company'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - setShaderDest - Using Shader destination directory '/run/media/jacobpina/DATA/Games/Lethal Company'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - setShaderDest - Shader destination directory is '/run/media/jacobpina/DATA/Games/Lethal Company'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/Games/Lethal Company' for 'SHADDESTDIR'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - openTrayIcon - Opening trayIcon:
+Thu Dec 14 02:01:11 PM MST 2023 INFO - setRunWineServer - Initiated from 'TrayIconExports'
+Thu Dec 14 02:01:11 PM MST 2023 SKIP - setRunProtonFromUseProton - USEPROTON is empty
+Thu Dec 14 02:01:11 PM MST 2023 WARN - setRunWineServer - Couldn't find the wine binary for the proton in path '' - falling back to 'wine' for plain RUNWINE and 'wineserver' for RUNWINESERVER
+Thu Dec 14 02:01:11 PM MST 2023 INFO - prepareLaunch - sortGameArgs:
+Thu Dec 14 02:01:11 PM MST 2023 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Thu Dec 14 02:01:11 PM MST 2023 INFO - prepareLaunch - AskSettings:
+Thu Dec 14 02:01:11 PM MST 2023 INFO - askSettings - Using game specific requester timeout '2'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - askSettings - Opening Requester with timeout '2'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4264407020/pfx/drive_c/users/steamuser'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - getRes - Detected screen resolution '3440x1440'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - pollWinRes - Using GEOM '--geometry=1068x1412+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4264407020/SteamTinkerLaunch-OpenSettings.conf'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4264407020/SteamTinkerLaunch-OpenSettings.conf' with incoming '1068x1412'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - setShowPic - Determining game picture
+Thu Dec 14 02:01:11 PM MST 2023 INFO - setShowPic - Game header picture exists at '/home/jacobpina/.config/steamtinkerlaunch/games/header/4264407020.jpg' but has zero bytes. Attempting one redownload
+Thu Dec 14 02:01:11 PM MST 2023 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - dlCheck - Downloading picture for game '4264407020'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - notiShow - Message 'Downloading '/home/jacobpina/.config/steamtinkerlaunch/games/header/4264407020.jpg'' should go to StatusWindow
+Thu Dec 14 02:01:11 PM MST 2023 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/4264407020/header.jpg -O /home/jacobpina/.config/steamtinkerlaunch/games/header/4264407020.jpg'
+Thu Dec 14 02:01:11 PM MST 2023 INFO - setShowPic - Could not redownload header picture, defaulting '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' to STL icon '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' (Maybe we're offline?)
+Thu Dec 14 02:01:11 PM MST 2023 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Thu Dec 14 02:01:11 PM MST 2023 INFO - askSettings - Could not retrieve Steam Deck compatibility rating, defaulting to Unknown - Maybe 'jq' is missing or we are offline?
+Thu Dec 14 02:01:11 PM MST 2023 INFO - askSettings - Steam Deck compatibility rating string is '<b>Steam Deck Compatibility:</b> '
+Thu Dec 14 02:01:11 PM MST 2023 INFO - askSettings - Preparing to show Wait Requester
+Thu Dec 14 02:01:12 PM MST 2023 INFO - updateWinRes - Window 'SteamTinkerLaunch-OpenSettings' is running - polling the resolution
+Thu Dec 14 02:01:12 PM MST 2023 INFO - updateWinRes - Found new Window Resolution '1630x1412' for Window 'SteamTinkerLaunch-OpenSettings'
+Thu Dec 14 02:01:13 PM MST 2023 INFO - MainMenu - Preparing to load Main Menu
+Thu Dec 14 02:01:13 PM MST 2023 SKIP - createDLSpekList - Skipping looking for available SpecialK versions, because USESPECIALK is disabled
+Thu Dec 14 02:01:13 PM MST 2023 INFO - updateWinRes - The Window 'SteamTinkerLaunch-OpenSettings' was closed - saving the last seen resolution '1630x1412' into config '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4264407020/SteamTinkerLaunch-OpenSettings.conf'
+Thu Dec 14 02:01:13 PM MST 2023 INFO - updateConfigEntry - Option 'WINX' is updated with the new value '1630' in config 'SteamTinkerLaunch-OpenSettings.conf'
+Thu Dec 14 02:01:13 PM MST 2023 INFO - saveNewRes - Saved new resolution '1630x1412' in '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4264407020/SteamTinkerLaunch-OpenSettings.conf'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - createDLReShadeList - Found the following 'ReShade' versions online '5.9.2!5.9.1!5.9.0'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - prepareMenu - Opening Menu
+Thu Dec 14 02:01:14 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' START
+Thu Dec 14 02:01:14 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' STOP
+Thu Dec 14 02:01:14 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' START
+Thu Dec 14 02:01:14 PM MST 2023 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/4264407020.conf' does not exist - nothing to do
+Thu Dec 14 02:01:14 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' STOP
+Thu Dec 14 02:01:14 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' START
+Thu Dec 14 02:01:14 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' STOP
+Thu Dec 14 02:01:14 PM MST 2023 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' already at version 'v12.12'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Lethal Company.conf' already exists
+Thu Dec 14 02:01:14 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - createProtonList - Looking for available Proton versions
+Thu Dec 14 02:01:14 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:14 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:14 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:14 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:14 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:14 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:14 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - createWineList - Updating the Wine Dropdown List
+Thu Dec 14 02:01:14 PM MST 2023 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4264407020/pfx/drive_c/users/steamuser'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - setShowPic - Determining game picture
+Thu Dec 14 02:01:14 PM MST 2023 INFO - setShowPic - Game header picture exists at '/home/jacobpina/.config/steamtinkerlaunch/games/header/4264407020.jpg' but has zero bytes. Attempting one redownload
+Thu Dec 14 02:01:14 PM MST 2023 INFO - dlCheck - Downloading picture for game '4264407020'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - notiShow - Message 'Downloading '/home/jacobpina/.config/steamtinkerlaunch/games/header/4264407020.jpg'' should go to StatusWindow
+Thu Dec 14 02:01:14 PM MST 2023 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/4264407020/header.jpg -O /home/jacobpina/.config/steamtinkerlaunch/games/header/4264407020.jpg'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - setShowPic - Could not redownload header picture, defaulting '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' to STL icon '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' (Maybe we're offline?)
+Thu Dec 14 02:01:14 PM MST 2023 INFO - setOPCustPath - Default path for custom exe file requester is '/run/media/jacobpina/DATA/Games/Lethal Company/Lethal Company.exe'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - getRes - Detected screen resolution '3440x1440'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - pollWinRes - Using GEOM '--geometry=1068x1412+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4264407020/SteamTinkerLaunch-MainMenu.conf'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4264407020/SteamTinkerLaunch-MainMenu.conf' with incoming '1068x1412'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/4264407020.bin'
+Thu Dec 14 02:01:14 PM MST 2023 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Thu Dec 14 02:01:14 PM MST 2023 INFO - MainMenu - Game Info Gotten!
+Thu Dec 14 02:01:14 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:14 PM MST 2023 INFO - createProtonList - Looking for available Proton versions
+Thu Dec 14 02:01:14 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:14 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:14 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:15 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:15 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:15 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:15 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:15 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:15 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:15 PM MST 2023 INFO - updateWinRes - Window 'SteamTinkerLaunch-MainMenu' is running - polling the resolution
+Thu Dec 14 02:01:15 PM MST 2023 INFO - updateWinRes - Found new Window Resolution '1630x1412' for Window 'SteamTinkerLaunch-MainMenu'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - MainMenu - Clicked '6' - 'GAME MENU'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - MainMenu - exiting 'Settings Menu' and opening 'Game Menu'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - prepareMenu - Opening Menu
+Thu Dec 14 02:01:19 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' START
+Thu Dec 14 02:01:19 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' STOP
+Thu Dec 14 02:01:19 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' START
+Thu Dec 14 02:01:19 PM MST 2023 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/4264407020.conf' does not exist - nothing to do
+Thu Dec 14 02:01:19 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' STOP
+Thu Dec 14 02:01:19 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' START
+Thu Dec 14 02:01:19 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' STOP
+Thu Dec 14 02:01:19 PM MST 2023 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' already at version 'v12.12'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Lethal Company.conf' already exists
+Thu Dec 14 02:01:19 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - createProtonList - Looking for available Proton versions
+Thu Dec 14 02:01:19 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:19 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:19 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:19 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:19 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:19 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:19 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - createWineList - Updating the Wine Dropdown List
+Thu Dec 14 02:01:19 PM MST 2023 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4264407020/pfx/drive_c/users/steamuser'
+Thu Dec 14 02:01:19 PM MST 2023 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' already at version 'v12.12'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/Lethal Company.conf' already exists
+Thu Dec 14 02:01:19 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - createProtonList - Looking for available Proton versions
+Thu Dec 14 02:01:19 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:19 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:19 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:19 PM MST 2023 INFO - updateWinRes - The Window 'SteamTinkerLaunch-MainMenu' was closed - saving the last seen resolution '1630x1412' into config '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4264407020/SteamTinkerLaunch-MainMenu.conf'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:19 PM MST 2023 INFO - updateConfigEntry - Option 'WINX' is updated with the new value '1630' in config 'SteamTinkerLaunch-MainMenu.conf'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:19 PM MST 2023 INFO - saveNewRes - Saved new resolution '1630x1412' in '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4264407020/SteamTinkerLaunch-MainMenu.conf'
+Thu Dec 14 02:01:19 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:20 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:20 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:20 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:20 PM MST 2023 INFO - createWineList - Updating the Wine Dropdown List
+Thu Dec 14 02:01:20 PM MST 2023 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf'
+Thu Dec 14 02:01:20 PM MST 2023 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/4264407020.conf' does not exist - nothing to do
+Thu Dec 14 02:01:20 PM MST 2023 INFO - getRes - Detected screen resolution '3440x1440'
+Thu Dec 14 02:01:20 PM MST 2023 INFO - pollWinRes - Using GEOM '--geometry=1068x1412+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4264407020/SteamTinkerLaunch-launchGameMenu.conf'
+Thu Dec 14 02:01:20 PM MST 2023 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4264407020/SteamTinkerLaunch-launchGameMenu.conf' with incoming '1068x1412'
+Thu Dec 14 02:01:20 PM MST 2023 INFO - openMenu - Starting createMenu "/dev/shm/steamtinkerlaunch/menutemp/gamemenu" "launchGameMenu" "/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png" "EMPTY" "EMPTY" "Settings for game 'Lethal Company (4264407020)'" "MainMenu" "MENU_GAME"
+Thu Dec 14 02:01:20 PM MST 2023 INFO - createMenu - got '9' elements: '0 /dev/shm/steamtinkerlaunch/menutemp/gamemenu launchGameMenu /dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png EMPTY EMPTY Settings for game 'Lethal Company (4264407020)' MainMenu MENU_GAME'
+Thu Dec 14 02:01:20 PM MST 2023 INFO - openMenu - Currently used tempfile is '/dev/shm/steamtinkerlaunch/menu.zD9MqrJq'
+Thu Dec 14 02:01:20 PM MST 2023 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Thu Dec 14 02:01:21 PM MST 2023 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Thu Dec 14 02:01:22 PM MST 2023 INFO - updateWinRes - Window 'SteamTinkerLaunch-launchGameMenu' is running - polling the resolution
+Thu Dec 14 02:01:22 PM MST 2023 INFO - updateWinRes - Found new Window Resolution '1630x1412' for Window 'SteamTinkerLaunch-launchGameMenu'
+Thu Dec 14 02:01:47 PM MST 2023 INFO - openMenu - Clicked '8' - 'SAVE AND PLAY'
+Thu Dec 14 02:01:47 PM MST 2023 INFO - openMenu - exiting 'Favorite Menu' and opening 'Game Start'
+Thu Dec 14 02:01:47 PM MST 2023 INFO - openMenu - Saving config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' and starting the game
+Thu Dec 14 02:01:47 PM MST 2023 INFO - saveMenuEntries - Saving changed Settings
+Thu Dec 14 02:01:47 PM MST 2023 INFO - saveMenuEntries - Clearing Results array with '0' elements
+Thu Dec 14 02:01:47 PM MST 2023 INFO - saveMenuEntries - Pulling values from tempfile '/dev/shm/steamtinkerlaunch/menu.zD9MqrJq'
+Thu Dec 14 02:01:47 PM MST 2023 INFO - updateWinRes - The Window 'SteamTinkerLaunch-launchGameMenu' was closed - saving the last seen resolution '1630x1412' into config '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4264407020/SteamTinkerLaunch-launchGameMenu.conf'
+Thu Dec 14 02:01:47 PM MST 2023 INFO - updateConfigEntry - Option 'WINX' is updated with the new value '1630' in config 'SteamTinkerLaunch-launchGameMenu.conf'
+Thu Dec 14 02:01:47 PM MST 2023 INFO - saveNewRes - Saved new resolution '1630x1412' in '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4264407020/SteamTinkerLaunch-launchGameMenu.conf'
+Thu Dec 14 02:01:48 PM MST 2023 INFO - updateConfigEntry - Option 'MAHUBIN' is updated with the new value '/run/media/jacobpina/DATA/Games/Lethal Company/none' in config '4264407020.conf'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - saveMenuEntries - Done with Saving changed Settings
+Thu Dec 14 02:01:49 PM MST 2023 INFO - startSteamGame - Starting game
+Thu Dec 14 02:01:49 PM MST 2023 INFO - goBackToPrevFunction - 'MainMenu' closed
+Thu Dec 14 02:01:49 PM MST 2023 INFO - prepareLaunch - Second LoadCfg after menus: /home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf
+Thu Dec 14 02:01:49 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' START
+Thu Dec 14 02:01:49 PM MST 2023 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/4264407020.conf' does not exist - nothing to do
+Thu Dec 14 02:01:49 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf' STOP
+Thu Dec 14 02:01:49 PM MST 2023 INFO - setDxvkVars - Exporting variable 'DXVK_FRAME_RATE=none' to limit game framerate
+Thu Dec 14 02:01:49 PM MST 2023 INFO - autoCollectionSettings - Searching collections for game '4264407020' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Thu Dec 14 02:01:49 PM MST 2023 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Thu Dec 14 02:01:49 PM MST 2023 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Thu Dec 14 02:01:49 PM MST 2023 INFO - prepareLaunch - sortGameArgs again, in case something changed above:
+Thu Dec 14 02:01:49 PM MST 2023 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Thu Dec 14 02:01:49 PM MST 2023 INFO - prepareLaunch - symlinkSteamUser:
+Thu Dec 14 02:01:49 PM MST 2023 SKIP - symlinkSteamUser - Symlinking steamuser is disabled - Checking if a symlink needs to be reverted
+Thu Dec 14 02:01:49 PM MST 2023 SKIP - symlinkSteamUser - '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4264407020/pfx/drive_c/users/steamuser' is no symlink - nothing to do
+Thu Dec 14 02:01:49 PM MST 2023 INFO - prepareLaunch - restoreSteamUser:
+Thu Dec 14 02:01:49 PM MST 2023 INFO - restoreSteamUser - Using configured value 'none' for RESTORESTEAMUSER
+Thu Dec 14 02:01:49 PM MST 2023 INFO - restoreSteamUser - Restoration of steamuser data is disabled with RESTORESTEAMUSER being 'none
+Thu Dec 14 02:01:49 PM MST 2023 INFO - prepareLaunch - prepareProton:
+Thu Dec 14 02:01:49 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:49 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:49 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - fixProtonVersionMismatch - Incoming category is 'USEPROTON' with value 'none'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - fixProtonVersionMismatch - Looking for an alternative similar version for 'none'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:49 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:49 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - fixProtonVersionMismatch - Automatically selecting newest official one
+Thu Dec 14 02:01:49 PM MST 2023 INFO - setNOP - Selecting newest official Proton available
+Thu Dec 14 02:01:49 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - createProtonList - Looking for available Proton versions
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:49 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:49 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:49 PM MST 2023 SKIP - setNOP - Haven't found anything
+Thu Dec 14 02:01:49 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:49 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - fixProtonVersionMismatch - Automatically updating USEPROTON to 'none' in '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - updateConfigEntry - Option 'USEPROTON' is updated with the new value 'none' in config '4264407020.conf'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareProton - Using 'OnlineFix64=n;SteamOverlay64=n;winmm=n,b;steam_api64=n' as 'WINEDLLOVERRIDES' parameter
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - setLinGameVals :
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - CheckTweakLaunch:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - checkXliveless:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - chooseWinetricks:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - checkExtDeps:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - checkExtDeps done
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - setWineVars:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - CheckWinetricksLaunch:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - CheckWineCfgLaunch:
+Thu Dec 14 02:01:50 PM MST 2023 WARN - checkWineCfgLaunch - Function was called but RUN_WINECFG ('0') was not enabled - skipping
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - CustomRegs:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - TogWindows:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - StateSteamWebHelper:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - InstallReshade:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - installDepth3DReshade:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - checkReshade:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - autoCollectionSettings - Searching collections for game '4264407020' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Thu Dec 14 02:01:50 PM MST 2023 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Thu Dec 14 02:01:50 PM MST 2023 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/Games/Lethal Company' for 'SHADDESTDIR'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - useSpecialK:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Thu Dec 14 02:01:50 PM MST 2023 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/Games/Lethal Company' for 'SPEKDDIR'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - configureGeoElf:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Thu Dec 14 02:01:50 PM MST 2023 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/Games/Lethal Company' for 'GEOELFDDIR'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - ChooseShaders:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - UseNyrnaz:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - UseReplay:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - CheckSBSVRLaunch:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - checkMO2:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - setNewRes:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getRes - Detected screen resolution '3440x1440'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - customUserScriptStart:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - redirectSCDP:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - redirectSCDP - Using Proton version 'none' for 'compatdata' directory name
+Thu Dec 14 02:01:50 PM MST 2023 INFO - redirectSCDP - Using regular compatdata '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4264407020'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - checkIGCSInjector:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - checkOpenVRFSR:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - CheckFWS:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - loadCustomVars - Empty global config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/global-custom-vars.conf' for user defined custom variables not loaded
+Thu Dec 14 02:01:50 PM MST 2023 INFO - loadCustomVars - Empty game-specific config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/4264407020.conf' for user defined custom variables not loaded
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - CheckCustomLaunch:
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - checkCustomLaunch - USECUSTOMCMD is '0' therefore skipping the custom program '/run/media/jacobpina/DATA/Games/Lethal Company/Lethal Company.exe'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - checkUUUPatchLaunch:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - CheckStraceLaunch:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - CheckNetMonLaunch:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - checkWDIB:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - checkPulse:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - checkSteamAppIDFile:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - checkSteamAppIDFile - STEAMAPPIDFILE is disabled and there's no '/run/media/jacobpina/DATA/Games/Lethal Company/steam_appid.txt' - nothing to do
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - setCompatDataTitle:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - setCompatDataTitle - Symlink /home/jacobpina/.config/steamtinkerlaunch/compatdata/Lethal Company already exists
+Thu Dec 14 02:01:50 PM MST 2023 INFO - setCompatDataTitle - Symlink '/home/jacobpina/.config/steamtinkerlaunch/compatdata/Lethal Company' already points to the correct directory '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4264407020'
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - delayGameForCustomLaunch - Nothing to do
+Thu Dec 14 02:01:50 PM MST 2023 INFO - prepareLaunch - launchSteamGame:
+Thu Dec 14 02:01:50 PM MST 2023 INFO - launchSteamGame - Initial game command is ''
+Thu Dec 14 02:01:50 PM MST 2023 INFO - gameArgs - Game doesn't use any command line arguments
+Thu Dec 14 02:01:50 PM MST 2023 INFO - launchSteamGame - Preparing proton command
+Thu Dec 14 02:01:50 PM MST 2023 INFO - setProtonCmd - Proton override enabled, so checking if it needs updated
+Thu Dec 14 02:01:50 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - fixSymlinks - Fixing Symlinks is not enabled
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - unSymlink - Unsymlinking is not enabled
+Thu Dec 14 02:01:50 PM MST 2023 WARN - setProtonCmd - 'none' seems outdated as the executable  wasn't found
+Thu Dec 14 02:01:50 PM MST 2023 INFO - fixProtonVersionMismatch - Incoming category is 'USEPROTON' with value 'none'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - fixProtonVersionMismatch - Looking for an alternative similar version for 'none'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - fixProtonVersionMismatch - Automatically selecting newest official one
+Thu Dec 14 02:01:50 PM MST 2023 INFO - setNOP - Selecting newest official Proton available
+Thu Dec 14 02:01:50 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - createProtonList - Looking for available Proton versions
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:50 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:50 PM MST 2023 SKIP - setNOP - Haven't found anything
+Thu Dec 14 02:01:51 PM MST 2023 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:51 PM MST 2023 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Thu Dec 14 02:01:51 PM MST 2023 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Thu Dec 14 02:01:51 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/jacobpina/.local/share/Steam/compatibilitytools.d'
+Thu Dec 14 02:01:51 PM MST 2023 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Thu Dec 14 02:01:51 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Thu Dec 14 02:01:51 PM MST 2023 INFO - getAvailableProtonVersions - Found proton directory: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental'
+Thu Dec 14 02:01:51 PM MST 2023 SKIP - fillProtonCSV - '"experimental-8.0-20231207";"/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"' is already in the Proton array
+Thu Dec 14 02:01:51 PM MST 2023 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:51 PM MST 2023 INFO - getAvailableProtonVersions - Checking line '' in '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:51 PM MST 2023 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/jacobpina/.config/steamtinkerlaunch/protonlist.txt'
+Thu Dec 14 02:01:51 PM MST 2023 INFO - fixProtonVersionMismatch - Automatically updating USEPROTON to 'none' in '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4264407020.conf'
+Thu Dec 14 02:01:51 PM MST 2023 INFO - updateConfigEntry - Option 'USEPROTON' is updated with the new value 'none' in config '4264407020.conf'
+Thu Dec 14 02:01:51 PM MST 2023 INFO - setProtonCmd - Still don't have a usable proton executable in RUNPROTON '{RUNPROTON//"/}')
+Thu Dec 14 02:01:51 PM MST 2023 ERROR - setProtonCmd - Could not find any usable proton version - this will likely crash - please open an issue on 'https://github.com/sonic2kk/steamtinkerlaunch' with this log
+Thu Dec 14 02:01:51 PM MST 2023 INFO - setProtonCmd - UPDATED game start command is: /run/media/jacobpina/DATA/Games/Lethal Company/Lethal Company.exe
+Thu Dec 14 02:01:51 PM MST 2023 INFO - setProtonCmd - Starting 'Lethal Company (4264407020)' with Proton: ''
+Thu Dec 14 02:01:51 PM MST 2023 INFO - launchSteamGame - Original incoming start command: ''
+Thu Dec 14 02:01:51 PM MST 2023 INFO - launchSteamGame - Final outgoing start command: '/run/media/jacobpina/DATA/Games/Lethal Company/Lethal Company.exe'
+Thu Dec 14 02:01:51 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/4264407020.conf' START
+Thu Dec 14 02:01:51 PM MST 2023 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/4264407020.conf' STOP
+Thu Dec 14 02:01:51 PM MST 2023 INFO - startGame - Getting the Game Window name:
+Thu Dec 14 02:01:51 PM MST 2023 SKIP - getGameWindowName - Already have the gamewindow name: 'Lethal Company' - skipping
+Thu Dec 14 02:01:51 PM MST 2023 INFO - startGame - Full start command is '/run/media/jacobpina/DATA/Games/Lethal Company/Lethal Company.exe'
+Thu Dec 14 02:01:51 PM MST 2023 INFO - startGame - ## ORIGINAL INCOMING LAUNCH COMMAND: ''
+Thu Dec 14 02:01:51 PM MST 2023 INFO - startGame - ## STL LAUNCH COMMAND: '/run/media/jacobpina/DATA/Games/Lethal Company/Lethal Company.exe'
+Thu Dec 14 02:01:51 PM MST 2023 INFO - startGame - ## GAMESTART HERE ###
+Thu Dec 14 02:01:51 PM MST 2023 INFO - restoreOrgVars - Restoring previously cleared Variables

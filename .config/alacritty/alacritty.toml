@@ -1,0 +1,9 @@
+[font.normal]
+family = "MesloLGS NF"
+
+[shell]
+program = "/bin/zsh"
+
+[window.padding]
+x = 10
+y = 10

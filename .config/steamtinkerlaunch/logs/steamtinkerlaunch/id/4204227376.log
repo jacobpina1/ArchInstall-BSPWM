@@ -1,0 +1,311 @@
+Mon Feb 19 16:48:53 MST 2024 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '0'
+Mon Feb 19 16:48:53 MST 2024 INFO - initAID - Set AID from STEAM_COMPAT_DATA_PATH '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4204227376' to '4204227376', because SteamAppId is '0'
+Mon Feb 19 16:48:53 MST 2024 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4204227376'
+Mon Feb 19 16:48:53 MST 2024 INFO - loadLangFile - Language from command line is 'english'
+Mon Feb 19 16:48:53 MST 2024 INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+Mon Feb 19 16:48:53 MST 2024 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Mon Feb 19 16:48:53 MST 2024 INFO - loadLangFile - Loading found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt
+Mon Feb 19 16:48:54 MST 2024 INFO - getCurrentCommandline - No Proton in command line arguments 'waitforexitandrun /run/media/jacobpina/DATA/Games/The Last of Us - Part I/launcher.exe'
+Mon Feb 19 16:48:54 MST 2024 INFO - saveOrgVars - Storing some original variables to restore them later
+Mon Feb 19 04:48:54 PM MST 2024 INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+Mon Feb 19 04:48:54 PM MST 2024 INFO - emptyVars - Set $PATH to '/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/home/jacobpina/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/jacobpina/.local/bin:'
+Mon Feb 19 04:48:54 PM MST 2024 START - ######### Initializing Game Launch 4204227376 using SteamTinkerLaunch v12.12 #########
+Mon Feb 19 04:48:54 PM MST 2024 INFO - main - Starting with a clean log
+Mon Feb 19 04:48:54 PM MST 2024 INFO - main - Start creating default configs
+Mon Feb 19 04:48:54 PM MST 2024 INFO - createDefaultCfgs - START
+Mon Feb 19 04:48:54 PM MST 2024 INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+Mon Feb 19 04:48:54 PM MST 2024 INFO - loadLangFile - Language from command line is 'english'
+Mon Feb 19 04:48:54 PM MST 2024 INFO - loadLangFile - GLOBALSTLLANGDIR is '/usr/share/steamtinkerlaunch/lang'
+Mon Feb 19 04:48:54 PM MST 2024 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Mon Feb 19 04:48:54 PM MST 2024 INFO - loadLangFile - Found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt, attempting to update it
+Mon Feb 19 04:48:54 PM MST 2024 INFO - loadLangFile - Found lang file to replace the existing user-installed file with under '/usr/share/steamtinkerlaunch/lang/english.txt'
+Mon Feb 19 04:48:54 PM MST 2024 INFO - loadLangFile - Loading found user-installed /home/jacobpina/.config/steamtinkerlaunch/lang/english.txt
+Mon Feb 19 04:48:54 PM MST 2024 INFO - loadLanguage - Loading STLLANG from '/home/jacobpina/.config/steamtinkerlaunch/global.conf'
+Mon Feb 19 04:48:54 PM MST 2024 INFO - loadLanguage - STLLANG from '/home/jacobpina/.config/steamtinkerlaunch/global.conf' is 'english'
+Mon Feb 19 04:48:54 PM MST 2024 INFO - createDefaultCfgs - setSteamPaths:
+Mon Feb 19 04:48:54 PM MST 2024 INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+Mon Feb 19 04:48:54 PM MST 2024 INFO - getGameOS - Starting game OS detection
+Mon Feb 19 04:48:54 PM MST 2024 WARN - getGameOS - Could not extract the full game binary path from the incoming game launch command, so assuming this is a Windows game!
+Mon Feb 19 04:48:54 PM MST 2024 INFO - setWin - '' determined to be a Windows Game
+Mon Feb 19 04:48:54 PM MST 2024 INFO - createDefaultCfgs - createProtonList:
+Mon Feb 19 04:48:54 PM MST 2024 INFO - createDefaultCfgs - createProtonList end
+Mon Feb 19 04:48:54 PM MST 2024 INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+Mon Feb 19 04:48:55 PM MST 2024 INFO - createDefaultCfgs - STOP
+Mon Feb 19 04:48:55 PM MST 2024 SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/jacobpina/.local/share/Steam/steamapps:/run/media/jacobpina/DATA/SteamLibrary/steamapps'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared:/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/jacobpina/.local/share/Steam/steamapps/common/Steamworks Shared:/home/jacobpina/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - main - Checking internal dependencies:
+Mon Feb 19 04:48:55 PM MST 2024 INFO - setAwkBin - Found 'gawk' as an 'awk' variant. It should work without any issues, because 'gawk' was tested completely
+Mon Feb 19 04:48:55 PM MST 2024 INFO - checkIntDeps - Result of version check for yad binary '/usr/bin/yad' is '13.0'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - main - Initializing first Proton:
+Mon Feb 19 04:48:55 PM MST 2024 INFO - initOldProtonArr - Creating an initial array with available Proton versions using the file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt' which was created during a previous run
+Mon Feb 19 04:48:55 PM MST 2024 INFO - initFirstProton - Initializing Proton
+Mon Feb 19 04:48:55 PM MST 2024 INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/jacobpina/.config/steamtinkerlaunch/default_template.conf' is 'proton-8.0-5c'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - main - Initializing default window resolution
+Mon Feb 19 04:48:55 PM MST 2024 INFO - setInitWinXY - Using '2580x1080' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - main - Welcome to SteamTinkerLaunch
+Mon Feb 19 04:48:55 PM MST 2024 INFO - removeEmptyFiles - Removing empty files from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - removeEmptyFiles - Removing empty files from '/home/jacobpina/.config/steamtinkerlaunch/games/header'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - main - Checking command line: incoming arguments 'waitforexitandrun /run/media/jacobpina/DATA/Games/The Last of Us - Part I/launcher.exe'
+Mon Feb 19 04:48:55 PM MST 2024 SKIP - getGameOS - ISGAME is already set to '2' - nothing to determine
+Mon Feb 19 04:48:55 PM MST 2024 INFO - linkLog - Set symlink from '/home/jacobpina/.config/steamtinkerlaunch/logs/steamtinkerlaunch/id/4204227376.log' to '/home/jacobpina/.config/steamtinkerlaunch/logs/steamtinkerlaunch/title/The.log'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/4204227376.bin'
+Mon Feb 19 04:48:55 PM MST 2024 START - ######### Game Launch: The (4204227376) #########
+Mon Feb 19 04:48:55 PM MST 2024 INFO - dlCheck - Downloading picture for game '4204227376'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - notiShow - Message 'Downloading '/home/jacobpina/.config/steamtinkerlaunch/games/header/4204227376.jpg'' should go to StatusWindow
+Mon Feb 19 04:48:55 PM MST 2024 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/4204227376/header.jpg -O /home/jacobpina/.config/steamtinkerlaunch/games/header/4204227376.jpg'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - prepareLaunch - Game launch args '/run/media/jacobpina/DATA/Games/The Last of Us - Part I/launcher.exe'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - prepareLaunch - Gamedir '/run/media/jacobpina/DATA/Games'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - prepareLaunch - Proton wineprefix '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4204227376/pfx'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - prepareLaunch - No INGCMD but valid ORGGCMD - May be Non-Steam game
+Mon Feb 19 04:48:55 PM MST 2024 INFO - prepareLaunch -------------------
+Mon Feb 19 04:48:55 PM MST 2024 INFO - prepareLaunch - CreateGameCfg:
+Mon Feb 19 04:48:55 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' already at version 'v12.12'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - linkGameCfg - Set symlink from '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' to '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/The.conf'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - prepareLaunch - First LoadCfg: /home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf
+Mon Feb 19 04:48:55 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' START
+Mon Feb 19 04:48:55 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf'
+Mon Feb 19 04:48:55 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/4204227376.conf' does not exist - nothing to do
+Mon Feb 19 04:48:55 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' STOP
+Mon Feb 19 04:48:56 PM MST 2024 SKIP - autoBumpReShade - '5.9.1' is the latest version of 'ReShade' - not updating
+Mon Feb 19 04:48:56 PM MST 2024 INFO - prepareLaunch - Initial Proton version from the game config: 'experimental-8.0-20240205'
+Mon Feb 19 04:48:56 PM MST 2024 INFO - prepareLaunch - Initializing internal Proton Vars for 'experimental-8.0-20240205' using setNewProtVars
+Mon Feb 19 04:48:56 PM MST 2024 INFO - setNewProtVars - Setting new Proton Variables based on '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Mon Feb 19 04:48:56 PM MST 2024 INFO - setNewProtVars - Continuing with RUNPROTON='/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Mon Feb 19 04:48:56 PM MST 2024 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Mon Feb 19 04:48:56 PM MST 2024 INFO - setRunWineServer - Set the wine binary for proton in path '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Mon Feb 19 04:48:56 PM MST 2024 INFO - setRunWineServer - to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wine'
+Mon Feb 19 04:48:56 PM MST 2024 INFO - setRunWineServer - and wineserver to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wineserver'
+Mon Feb 19 04:48:56 PM MST 2024 INFO - prepareLaunch - OpenTrayIcon:
+Mon Feb 19 04:48:56 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '4204227376' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Mon Feb 19 04:48:56 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Mon Feb 19 04:48:56 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Mon Feb 19 04:48:56 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Mon Feb 19 04:48:56 PM MST 2024 INFO - setShaderDest - Determining Shader destination directory SHADDESTDIR
+Mon Feb 19 04:48:56 PM MST 2024 INFO - setShaderDest - Using variable ABSGAMEEXEPATH for Shader destination directory ''
+Mon Feb 19 04:48:56 PM MST 2024 INFO - setFullGameExePath - Using the base game directory '/run/media/jacobpina/DATA/Games' as absolute game exe path - probably never reached?
+Mon Feb 19 04:48:56 PM MST 2024 INFO - openTrayIcon - Opening trayIcon:
+Mon Feb 19 04:48:56 PM MST 2024 INFO - prepareLaunch - sortGameArgs:
+Mon Feb 19 04:48:56 PM MST 2024 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Mon Feb 19 04:48:56 PM MST 2024 INFO - prepareLaunch - AskSettings:
+Mon Feb 19 04:48:56 PM MST 2024 INFO - askSettings - Using game specific requester timeout '2'
+Mon Feb 19 04:48:56 PM MST 2024 INFO - askSettings - Opening Requester with timeout '2'
+Mon Feb 19 04:48:56 PM MST 2024 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4204227376/pfx/drive_c/users/steamuser'
+Mon Feb 19 04:48:57 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Mon Feb 19 04:48:57 PM MST 2024 INFO - pollWinRes - Using GEOM '--geometry=1696x1368+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4204227376/SteamTinkerLaunch-OpenSettings.conf'
+Mon Feb 19 04:48:57 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4204227376/SteamTinkerLaunch-OpenSettings.conf' with incoming '1696x1368'
+Mon Feb 19 04:48:57 PM MST 2024 INFO - setShowPic - Determining game picture
+Mon Feb 19 04:48:57 PM MST 2024 INFO - setShowPic - Game header picture exists at '/home/jacobpina/.config/steamtinkerlaunch/games/header/4204227376.jpg' but has zero bytes. Attempting one redownload
+Mon Feb 19 04:48:57 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Mon Feb 19 04:48:57 PM MST 2024 INFO - dlCheck - Downloading picture for game '4204227376'
+Mon Feb 19 04:48:57 PM MST 2024 INFO - notiShow - Message 'Downloading '/home/jacobpina/.config/steamtinkerlaunch/games/header/4204227376.jpg'' should go to StatusWindow
+Mon Feb 19 04:48:57 PM MST 2024 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/4204227376/header.jpg -O /home/jacobpina/.config/steamtinkerlaunch/games/header/4204227376.jpg'
+Mon Feb 19 04:48:57 PM MST 2024 INFO - setShowPic - Could not redownload header picture, defaulting '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' to STL icon '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' (Maybe we're offline?)
+Mon Feb 19 04:48:57 PM MST 2024 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Mon Feb 19 04:48:57 PM MST 2024 INFO - askSettings - Could not retrieve Steam Deck compatibility rating, defaulting to Unknown - Maybe 'jq' is missing or we are offline?
+Mon Feb 19 04:48:57 PM MST 2024 INFO - askSettings - Steam Deck compatibility rating string is '<b>Steam Deck Compatibility:</b> '
+Mon Feb 19 04:48:57 PM MST 2024 INFO - askSettings - Preparing to show Wait Requester
+Mon Feb 19 04:48:58 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-OpenSettings' is running - polling the resolution
+Mon Feb 19 04:48:58 PM MST 2024 INFO - updateWinRes - Found new Window Resolution '839x1368' for Window 'SteamTinkerLaunch-OpenSettings'
+Mon Feb 19 04:48:59 PM MST 2024 INFO - MainMenu - Preparing to load Main Menu
+Mon Feb 19 04:48:59 PM MST 2024 SKIP - createDLSpekList - Skipping looking for available SpecialK versions, because USESPECIALK is disabled
+Mon Feb 19 04:49:00 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-OpenSettings' was closed - saving the last seen resolution '839x1368' into config '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4204227376/SteamTinkerLaunch-OpenSettings.conf'
+Mon Feb 19 04:49:00 PM MST 2024 INFO - updateConfigEntry - Option 'WINX' is updated with the new value '839' in config 'SteamTinkerLaunch-OpenSettings.conf'
+Mon Feb 19 04:49:00 PM MST 2024 INFO - saveNewRes - Saved new resolution '839x1368' in '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4204227376/SteamTinkerLaunch-OpenSettings.conf'
+Mon Feb 19 04:49:00 PM MST 2024 INFO - createDLReShadeList - Found the following 'ReShade' versions online '6.0.1!6.0.0!5.9.2'
+Mon Feb 19 04:49:00 PM MST 2024 INFO - prepareMenu - Opening Menu
+Mon Feb 19 04:49:00 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' START
+Mon Feb 19 04:49:00 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' STOP
+Mon Feb 19 04:49:00 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' START
+Mon Feb 19 04:49:00 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf'
+Mon Feb 19 04:49:00 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/4204227376.conf' does not exist - nothing to do
+Mon Feb 19 04:49:00 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' STOP
+Mon Feb 19 04:49:00 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' START
+Mon Feb 19 04:49:00 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' STOP
+Mon Feb 19 04:49:00 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' already at version 'v12.12'
+Mon Feb 19 04:49:00 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/The.conf' already exists
+Mon Feb 19 04:49:00 PM MST 2024 INFO - createWineList - Updating the Wine Dropdown List
+Mon Feb 19 04:49:00 PM MST 2024 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4204227376/pfx/drive_c/users/steamuser'
+Mon Feb 19 04:49:00 PM MST 2024 INFO - setShowPic - Determining game picture
+Mon Feb 19 04:49:00 PM MST 2024 INFO - setShowPic - Game header picture exists at '/home/jacobpina/.config/steamtinkerlaunch/games/header/4204227376.jpg' but has zero bytes. Attempting one redownload
+Mon Feb 19 04:49:00 PM MST 2024 INFO - dlCheck - Downloading picture for game '4204227376'
+Mon Feb 19 04:49:00 PM MST 2024 INFO - notiShow - Message 'Downloading '/home/jacobpina/.config/steamtinkerlaunch/games/header/4204227376.jpg'' should go to StatusWindow
+Mon Feb 19 04:49:00 PM MST 2024 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/4204227376/header.jpg -O /home/jacobpina/.config/steamtinkerlaunch/games/header/4204227376.jpg'
+Mon Feb 19 04:49:00 PM MST 2024 INFO - setShowPic - Could not redownload header picture, defaulting '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' to STL icon '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' (Maybe we're offline?)
+Mon Feb 19 04:49:00 PM MST 2024 INFO - setOPCustPath - Default path for custom exe file requester is '/home/jacobpina/.steam/steam/steamapps/compatdata/4204227376/pfx/drive_c/windows/explorer.exe'
+Mon Feb 19 04:49:01 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Mon Feb 19 04:49:01 PM MST 2024 INFO - pollWinRes - Using GEOM '--geometry=1696x1368+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4204227376/SteamTinkerLaunch-MainMenu.conf'
+Mon Feb 19 04:49:01 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4204227376/SteamTinkerLaunch-MainMenu.conf' with incoming '1696x1368'
+Mon Feb 19 04:49:01 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Mon Feb 19 04:49:01 PM MST 2024 INFO - getAppInfoData - Retrieving data for 'name' from '/home/jacobpina/.config/steamtinkerlaunch/games/appinfo/4204227376.bin'
+Mon Feb 19 04:49:01 PM MST 2024 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Mon Feb 19 04:49:02 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-MainMenu' is running - polling the resolution
+Mon Feb 19 04:49:02 PM MST 2024 INFO - updateWinRes - Found new Window Resolution '839x1368' for Window 'SteamTinkerLaunch-MainMenu'
+Mon Feb 19 04:49:02 PM MST 2024 INFO - MainMenu - Clicked '6' - 'GAME MENU'
+Mon Feb 19 04:49:02 PM MST 2024 INFO - MainMenu - exiting 'Settings Menu' and opening 'Game Menu'
+Mon Feb 19 04:49:02 PM MST 2024 INFO - prepareMenu - Opening Menu
+Mon Feb 19 04:49:02 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' START
+Mon Feb 19 04:49:02 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/global.conf' STOP
+Mon Feb 19 04:49:02 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' START
+Mon Feb 19 04:49:02 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf'
+Mon Feb 19 04:49:03 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/4204227376.conf' does not exist - nothing to do
+Mon Feb 19 04:49:03 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' STOP
+Mon Feb 19 04:49:03 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' START
+Mon Feb 19 04:49:03 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/url.conf' STOP
+Mon Feb 19 04:49:03 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' already at version 'v12.12'
+Mon Feb 19 04:49:03 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/The.conf' already exists
+Mon Feb 19 04:49:03 PM MST 2024 INFO - createWineList - Updating the Wine Dropdown List
+Mon Feb 19 04:49:03 PM MST 2024 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4204227376/pfx/drive_c/users/steamuser'
+Mon Feb 19 04:49:03 PM MST 2024 SKIP - updateConfigFile - Config file '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' already at version 'v12.12'
+Mon Feb 19 04:49:03 PM MST 2024 INFO - linkGameCfg - Symlink '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/title/The.conf' already exists
+Mon Feb 19 04:49:03 PM MST 2024 INFO - createWineList - Updating the Wine Dropdown List
+Mon Feb 19 04:49:03 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-MainMenu' was closed - saving the last seen resolution '839x1368' into config '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4204227376/SteamTinkerLaunch-MainMenu.conf'
+Mon Feb 19 04:49:03 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf'
+Mon Feb 19 04:49:03 PM MST 2024 INFO - updateConfigEntry - Option 'WINX' is updated with the new value '839' in config 'SteamTinkerLaunch-MainMenu.conf'
+Mon Feb 19 04:49:03 PM MST 2024 INFO - saveNewRes - Saved new resolution '839x1368' in '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4204227376/SteamTinkerLaunch-MainMenu.conf'
+Mon Feb 19 04:49:03 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/4204227376.conf' does not exist - nothing to do
+Mon Feb 19 04:49:03 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Mon Feb 19 04:49:03 PM MST 2024 INFO - pollWinRes - Using GEOM '--geometry=1696x1368+0+0' from '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4204227376/SteamTinkerLaunch-launchGameMenu.conf'
+Mon Feb 19 04:49:03 PM MST 2024 INFO - updateWinRes - Starting resolution-poll for '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4204227376/SteamTinkerLaunch-launchGameMenu.conf' with incoming '1696x1368'
+Mon Feb 19 04:49:03 PM MST 2024 INFO - openMenu - Starting createMenu "/dev/shm/steamtinkerlaunch/menutemp/gamemenu" "launchGameMenu" "/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png" "EMPTY" "EMPTY" "Settings for game 'The (4204227376)'" "MainMenu" "MENU_GAME"
+Mon Feb 19 04:49:03 PM MST 2024 INFO - createMenu - got '9' elements: '0 /dev/shm/steamtinkerlaunch/menutemp/gamemenu launchGameMenu /dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png EMPTY EMPTY Settings for game 'The (4204227376)' MainMenu MENU_GAME'
+Mon Feb 19 04:49:03 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Mon Feb 19 04:49:03 PM MST 2024 INFO - openMenu - Currently used tempfile is '/dev/shm/steamtinkerlaunch/menu.CjJ2DlLO'
+Mon Feb 19 04:49:04 PM MST 2024 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Mon Feb 19 04:49:05 PM MST 2024 INFO - updateWinRes - Window 'SteamTinkerLaunch-launchGameMenu' is running - polling the resolution
+Mon Feb 19 04:49:05 PM MST 2024 INFO - updateWinRes - Found new Window Resolution '839x1368' for Window 'SteamTinkerLaunch-launchGameMenu'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - openMenu - Clicked '10' - 'PLAY'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - openMenu - exiting 'Favorite Menu' and opening 'Game Start'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - startSteamGame - Starting game
+Mon Feb 19 04:49:08 PM MST 2024 INFO - goBackToPrevFunction - 'MainMenu' closed
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - Second LoadCfg after menus: /home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf
+Mon Feb 19 04:49:08 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' START
+Mon Feb 19 04:49:08 PM MST 2024 INFO - loadCfg - Loading game config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - migrateCfgOption - File '/home/jacobpina/.config/steamtinkerlaunch/dxvk/4204227376.conf' does not exist - nothing to do
+Mon Feb 19 04:49:08 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/id/4204227376.conf' STOP
+Mon Feb 19 04:49:08 PM MST 2024 INFO - setDxvkVars - Exporting variable 'DXVK_FRAME_RATE=none' to limit game framerate
+Mon Feb 19 04:49:08 PM MST 2024 INFO - updateWinRes - The Window 'SteamTinkerLaunch-launchGameMenu' was closed - saving the last seen resolution '839x1368' into config '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4204227376/SteamTinkerLaunch-launchGameMenu.conf'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - updateConfigEntry - Option 'WINX' is updated with the new value '839' in config 'SteamTinkerLaunch-launchGameMenu.conf'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - saveNewRes - Saved new resolution '839x1368' in '/home/jacobpina/.config/steamtinkerlaunch/guicfgs/3440x1440/4204227376/SteamTinkerLaunch-launchGameMenu.conf'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '4204227376' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Mon Feb 19 04:49:08 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Mon Feb 19 04:49:08 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - sortGameArgs again, in case something changed above:
+Mon Feb 19 04:49:08 PM MST 2024 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - symlinkSteamUser:
+Mon Feb 19 04:49:08 PM MST 2024 SKIP - symlinkSteamUser - Symlinking steamuser is disabled - Checking if a symlink needs to be reverted
+Mon Feb 19 04:49:08 PM MST 2024 SKIP - symlinkSteamUser - '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4204227376/pfx/drive_c/users/steamuser' is no symlink - nothing to do
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - restoreSteamUser:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - restoreSteamUser - Using configured value 'none' for RESTORESTEAMUSER
+Mon Feb 19 04:49:08 PM MST 2024 INFO - restoreSteamUser - Restoration of steamuser data is disabled with RESTORESTEAMUSER being 'none
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - prepareProton:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - setLinGameVals :
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - CheckTweakLaunch:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - checkXliveless:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - chooseWinetricks:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - checkExtDeps:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - checkExtDeps done
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - setWineVars:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - CheckWinetricksLaunch:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - CheckWineCfgLaunch:
+Mon Feb 19 04:49:08 PM MST 2024 WARN - checkWineCfgLaunch - Function was called but RUN_WINECFG ('0') was not enabled - skipping
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - CustomRegs:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - TogWindows:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - StateSteamWebHelper:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - InstallReshade:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - installDepth3DReshade:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - checkReshade:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - autoCollectionSettings - Searching collections for game '4204227376' in '/home/jacobpina/.local/share/Steam/userdata/95264632/7/remote/sharedconfig.vdf'
+Mon Feb 19 04:49:08 PM MST 2024 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Mon Feb 19 04:49:08 PM MST 2024 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Mon Feb 19 04:49:08 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Mon Feb 19 04:49:08 PM MST 2024 INFO - setShaderDest - Shader destination directory is '/run/media/jacobpina/DATA/Games'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/Games' for 'SHADDESTDIR'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - useSpecialK:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Mon Feb 19 04:49:08 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/Games' for 'SPEKDDIR'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - configureGeoElf:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Mon Feb 19 04:49:08 PM MST 2024 INFO - setFullGameExePath - Using SHADDESTDIR '/run/media/jacobpina/DATA/Games' for 'GEOELFDDIR'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - ChooseShaders:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - UseNyrnaz:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - UseReplay:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - CheckSBSVRLaunch:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - checkMO2:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - setNewRes:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - getRes - Detected screen resolution '3440x1440'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - customUserScriptStart:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - redirectSCDP:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - redirectSCDP - Using Proton version with minor version fix 'experimental-8.0-20240205' for compatdata directory name
+Mon Feb 19 04:49:08 PM MST 2024 INFO - redirectSCDP - Using regular compatdata '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4204227376'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - checkIGCSInjector:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - checkOpenVRFSR:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - CheckFWS:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - loadCustomVars - Empty global config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/global-custom-vars.conf' for user defined custom variables not loaded
+Mon Feb 19 04:49:08 PM MST 2024 INFO - loadCustomVars - Empty game-specific config '/home/jacobpina/.config/steamtinkerlaunch/gamecfgs/customvars/4204227376.conf' for user defined custom variables not loaded
+Mon Feb 19 04:49:08 PM MST 2024 INFO - prepareLaunch - CheckCustomLaunch:
+Mon Feb 19 04:49:08 PM MST 2024 INFO - checkCustomLaunch - USECUSTOMCMD is set to '1' - trying to start custom program '/home/jacobpina/.steam/steam/steamapps/compatdata/4204227376/pfx/drive_c/windows/explorer.exe'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - checkCustomLaunch - FORK_CUSTOMCMD is set to 0 - starting the custom program regularly
+Mon Feb 19 04:49:08 PM MST 2024 INFO - launchCustomProg - '/home/jacobpina/.steam/steam/steamapps/compatdata/4204227376/pfx/drive_c/windows/explorer.exe' found
+Mon Feb 19 04:49:08 PM MST 2024 INFO - launchCustomProg - Changed pwd into the custom directory '/home/jacobpina/.steam/steam/steamapps/compatdata/4204227376/pfx/drive_c/windows'
+Mon Feb 19 04:49:08 PM MST 2024 INFO - launchCustomProg - Seems like we may have a Linux executable here
+Mon Feb 19 04:49:08 PM MST 2024 INFO - launchCustomProg - No external program args here it seems
+Mon Feb 19 04:49:08 PM MST 2024 INFO - launchCustomProg - '/home/jacobpina/.steam/steam/steamapps/compatdata/4204227376/pfx/drive_c/windows/explorer.exe' doesn't seem to be a MS Windows exe - regular start (without further analysing)
+Mon Feb 19 04:49:08 PM MST 2024 INFO - launchCustomProg - Starting native custom command regularly
+Mon Feb 19 04:49:43 PM MST 2024 INFO - launchCustomProg - Changing pwd into previous directory
+Mon Feb 19 04:49:43 PM MST 2024 INFO - prepareLaunch - checkUUUPatchLaunch:
+Mon Feb 19 04:49:43 PM MST 2024 INFO - prepareLaunch - CheckStraceLaunch:
+Mon Feb 19 04:49:43 PM MST 2024 INFO - prepareLaunch - CheckNetMonLaunch:
+Mon Feb 19 04:49:43 PM MST 2024 INFO - prepareLaunch - checkWDIB:
+Mon Feb 19 04:49:43 PM MST 2024 INFO - prepareLaunch - checkPulse:
+Mon Feb 19 04:49:43 PM MST 2024 INFO - prepareLaunch - checkSteamAppIDFile:
+Mon Feb 19 04:49:43 PM MST 2024 INFO - checkSteamAppIDFile - STEAMAPPIDFILE is disabled and there's no '/run/media/jacobpina/DATA/Games/steam_appid.txt' - nothing to do
+Mon Feb 19 04:49:43 PM MST 2024 INFO - prepareLaunch - setCompatDataTitle:
+Mon Feb 19 04:49:43 PM MST 2024 INFO - setCompatDataTitle - Set symlink from '/home/jacobpina/.local/share/Steam/steamapps/compatdata/4204227376' to '/home/jacobpina/.config/steamtinkerlaunch/compatdata/The'
+Mon Feb 19 04:49:43 PM MST 2024 SKIP - delayGameForCustomLaunch - Nothing to do
+Mon Feb 19 04:49:43 PM MST 2024 INFO - prepareLaunch - launchSteamGame:
+Mon Feb 19 04:49:43 PM MST 2024 INFO - launchSteamGame - Initial game command is ''
+Mon Feb 19 04:49:43 PM MST 2024 INFO - gameArgs - Game doesn't use any command line arguments
+Mon Feb 19 04:49:43 PM MST 2024 INFO - launchSteamGame - Preparing proton command
+Mon Feb 19 04:49:43 PM MST 2024 INFO - setProtonCmd - Proton override enabled, so checking if it needs updated
+Mon Feb 19 04:49:43 PM MST 2024 INFO - setRunProtonFromUseProton - Setting ORUNPROTON to '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton'
+Mon Feb 19 04:49:43 PM MST 2024 SKIP - setRunProtonFromUseProton - RUNPROTON '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton' hasn't changed
+Mon Feb 19 04:49:43 PM MST 2024 SKIP - fixSymlinks - Fixing Symlinks is not enabled
+Mon Feb 19 04:49:43 PM MST 2024 SKIP - unSymlink - Unsymlinking is not enabled
+Mon Feb 19 04:49:43 PM MST 2024 INFO - setProtonCmd - Prepending Proton 'experimental-8.0-20240205' (='/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton') to the command line '/run/media/jacobpina/DATA/Games/The Last of Us - Part I/launcher.exe'
+Mon Feb 19 04:49:43 PM MST 2024 INFO - setProtonCmd - UPDATED game start command is: /run/media/jacobpina/DATA/Games/The Last of Us - Part I/launcher.exe
+Mon Feb 19 04:49:43 PM MST 2024 INFO - setProtonCmd - Starting 'The (4204227376)' with Proton: 'experimental-8.0-20240205'
+Mon Feb 19 04:49:43 PM MST 2024 INFO - launchSteamGame - Original incoming start command: ''
+Mon Feb 19 04:49:43 PM MST 2024 INFO - launchSteamGame - Final outgoing start command: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/Games/The Last of Us - Part I/launcher.exe'
+Mon Feb 19 04:49:43 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/4204227376.conf' START
+Mon Feb 19 04:49:43 PM MST 2024 INFO - loadCfg - '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/4204227376.conf' STOP
+Mon Feb 19 04:49:43 PM MST 2024 INFO - startGame - Getting the Game Window name:
+Mon Feb 19 04:49:43 PM MST 2024 INFO - getGameWindowName - No gamewindow name stored in metadata '/home/jacobpina/.config/steamtinkerlaunch/meta/id/general/4204227376.conf' yet. Trying to find it now
+Mon Feb 19 04:49:43 PM MST 2024 INFO - startGame - Full start command is '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/Games/The Last of Us - Part I/launcher.exe'
+Mon Feb 19 04:49:43 PM MST 2024 INFO - startGame - ## ORIGINAL INCOMING LAUNCH COMMAND: ''
+Mon Feb 19 04:49:43 PM MST 2024 INFO - startGame - ## STL LAUNCH COMMAND: '/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton waitforexitandrun /run/media/jacobpina/DATA/Games/The Last of Us - Part I/launcher.exe'
+Mon Feb 19 04:49:43 PM MST 2024 INFO - startGame - ## GAMESTART HERE ###
+Mon Feb 19 04:49:43 PM MST 2024 INFO - restoreOrgVars - Restoring previously cleared Variables
+Mon Feb 19 04:49:43 PM MST 2024 WAIT - getGameWindowPID - Sec 0/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:44 PM MST 2024 WAIT - getGameWindowPID - Sec 1/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:45 PM MST 2024 WAIT - getGameWindowPID - Sec 2/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:46 PM MST 2024 WAIT - getGameWindowPID - Sec 3/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:47 PM MST 2024 WAIT - getGameWindowPID - Sec 4/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:48 PM MST 2024 WAIT - getGameWindowPID - Sec 5/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:49 PM MST 2024 WAIT - getGameWindowPID - Sec 6/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:50 PM MST 2024 WAIT - getGameWindowPID - Sec 7/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:51 PM MST 2024 WAIT - getGameWindowPID - Sec 8/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:52 PM MST 2024 WAIT - getGameWindowPID - Sec 9/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:53 PM MST 2024 WAIT - getGameWindowPID - Sec 10/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:54 PM MST 2024 WAIT - getGameWindowPID - Sec 11/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:55 PM MST 2024 WAIT - getGameWindowPID - Sec 12/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:56 PM MST 2024 WAIT - getGameWindowPID - Sec 13/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:57 PM MST 2024 WAIT - getGameWindowPID - Sec 14/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:58 PM MST 2024 WAIT - getGameWindowPID - Sec 15/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:49:59 PM MST 2024 WAIT - getGameWindowPID - Sec 16/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:50:00 PM MST 2024 WAIT - getGameWindowPID - Sec 17/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:50:01 PM MST 2024 WAIT - getGameWindowPID - Sec 18/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:50:02 PM MST 2024 WAIT - getGameWindowPID - Sec 19/20 Game Window with pwd '/run/media/jacobpina/DATA/Games' not yet in front
+Mon Feb 19 04:50:03 PM MST 2024 SKIP - getGameWindowPID - ERROR - timeout waiting for '/run/media/jacobpina/DATA/Games' window
+Mon Feb 19 04:50:03 PM MST 2024 SKIP - getGameWindowName - No valid game window PID found

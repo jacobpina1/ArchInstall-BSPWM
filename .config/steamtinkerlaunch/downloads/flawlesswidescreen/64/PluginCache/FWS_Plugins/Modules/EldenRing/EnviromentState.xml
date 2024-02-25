@@ -1,0 +1,53 @@
+<StepState Schema="1.0" NameSpace="EldenRing">
+	<StepStates>
+		<StepState Step="1">
+			<ControlState>
+				<Control Type="CheckBox" ID="CheckBox_Enable">
+					<CheckBoxProperties CheckState="1"/>
+				</Control>
+				<Control Type="ComboBox" ID="VersionCombo">
+					<ComboBoxProperties SelectedIndex="0"/>
+				</Control>
+				<Control Type="TrackBar" ID="FOVSlider">
+					<TrackBarProperties Position="0"/>
+				</Control>
+				<Control Type="TrackBar" ID="FTSlider">
+					<TrackBarProperties Position="60"/>
+				</Control>
+				<Control Type="TrackBar" ID="VignetteSlider">
+					<TrackBarProperties Position="0"/>
+				</Control>
+				<Control Type="CheckBox" ID="CKAspectFix_Enable">
+					<CheckBoxProperties CheckState="1"/>
+				</Control>
+				<Control Type="CheckBox" ID="CKResCheck_Enable">
+					<CheckBoxProperties CheckState="1"/>
+				</Control>
+				<Control Type="CheckBox" ID="CKFOVAdjustment_Enable">
+					<CheckBoxProperties CheckState="0"/>
+				</Control>
+				<Control Type="CheckBox" ID="CKFTAdjustment_Enable">
+					<CheckBoxProperties CheckState="0"/>
+				</Control>
+				<Control Type="CheckBox" ID="CKVignetteAdjustment_Enable">
+					<CheckBoxProperties CheckState="0"/>
+				</Control>
+				<Control Type="CheckBox" ID="CKFS60HzUnlock_Enable">
+					<CheckBoxProperties CheckState="1"/>
+				</Control>
+				<Control Type="CheckBox" ID="CKIncreaseAniDist_Enable">
+					<CheckBoxProperties CheckState="1"/>
+				</Control>
+				<Control Type="CheckBox" ID="CKDisableCA_Enable">
+					<CheckBoxProperties CheckState="1"/>
+				</Control>
+				<Control Type="CheckBox" ID="CKAnticheat_Warning">
+					<CheckBoxProperties CheckState="1"/>
+				</Control>
+			</ControlState>
+			<ViewportState SBVertPos="0"/>
+		</StepState>
+		<ViewportState LastStep="1"/>
+	</StepStates>
+</StepState>
+

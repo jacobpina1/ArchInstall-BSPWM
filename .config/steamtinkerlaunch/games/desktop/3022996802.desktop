@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Lethal Company
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/3022996802
+Icon=/home/jacobpina/.config/steamtinkerlaunch/games/header/3022996802.jpg
+Terminal=false
+Type=Application
+Categories=Game;

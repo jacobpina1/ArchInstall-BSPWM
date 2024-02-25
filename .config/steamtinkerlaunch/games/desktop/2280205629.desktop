@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=eldenring
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/2280205629
+Icon=/home/jacobpina/.config/steamtinkerlaunch/games/header/2280205629.jpg
+Terminal=false
+Type=Application
+Categories=Game;

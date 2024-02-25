@@ -1,0 +1,6 @@
+RUNPROTON="/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/proton"
+RUNWINE="/home/jacobpina/.local/share/Steam/steamapps/common/Proton - Experimental/files/bin/wine"
+PROTONVERSION="experimental-8.0-20240205"
+PREVAID="4204227376"
+PREVGAME="Red"
+PREVABSGAMEEXEPATH=""

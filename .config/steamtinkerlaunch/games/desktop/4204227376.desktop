@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Launcher
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/4204227376
+Icon=/home/jacobpina/.config/steamtinkerlaunch/games/header/4204227376.jpg
+Terminal=false
+Type=Application
+Categories=Game;
