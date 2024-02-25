@@ -4,13 +4,14 @@
 sudo pacman -Syu --noconfirm
 
 #Install yay AUR helper tool
-pacman -S --needed git base-devel --noconfirm
+sudo pacman -S --needed git base-devel --noconfirm
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepkg -si --noconfirm
+y | makepkg -si
+cd ..
 
 #Install extra packages to setup DE
-sudo yay -S adwaita-cursors adwaita-icon-theme alacritty discord ntfs-3g dosfstools dunst neofetch firefox galculator i2c-tools jre8-openjdk mpv vlc logiops lxappearance-gtk3 man-db numlockx open-rgb pavucontrol phinger-cursors polybar picom-arian8j2-git pulseaudio-control pulseaudio-nextsink rofi solaar-git steam sxhkd thunar thunar-archive-plugin thunar-shares-plugin timeshift unrar unzip variety wine --noconfirm
+yay -S adwaita-cursors adwaita-icon-theme alacritty discord ntfs-3g dosfstools dunst neofetch firefox galculator i2c-tools jre8-openjdk mpv vlc logiops lxappearance-gtk3 man-db numlockx open-rgb pavucontrol phinger-cursors polybar picom-arian8j2-git pulseaudio-control pulseaudio-nextsink rofi solaar-git steam sxhkd thunar thunar-archive-plugin thunar-shares-plugin timeshift unrar unzip variety wine --noconfirm
 
 #Make tmp directory and copy dotfiles
 mkdir $HOME/tmp
